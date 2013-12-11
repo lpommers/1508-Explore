@@ -1,0 +1,19 @@
+#banner{
+	border:1em solid black;
+	width: 100%;
+	height: 10%;
+}
+
+#menu {
+	border:1em solid black;
+	width: 80%;
+	height: 20%;
+	float: left;
+}
+
+#photo {
+	border:1em solid black;
+	width: 80%;
+	height: 20%;
+	float: left;
+}
