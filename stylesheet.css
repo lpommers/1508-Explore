@@ -1,19 +1,23 @@
 #banner{
-	border:1em solid black;
-	width: 100%;
+	border:5px solid black;
 	height: 10%;
+	padding: 15%;
+	margin-bottom: 5%;
+	background-color: #7ED3F7;
 }
 
 #menu {
-	border:1em solid black;
-	width: 80%;
+	border:5px solid black;
 	height: 20%;
-	float: left;
+	padding: 2%; 
+	margin-bottom: 5%;
+	background-color: #FF0000;
 }
 
 #photo {
-	border:1em solid black;
-	width: 80%;
-	height: 20%;
-	float: left;
+	border:5px solid black;
+	padding: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 3%;
 }
