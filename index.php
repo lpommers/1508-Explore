@@ -45,9 +45,10 @@
 		<nav id="nav">
 				
 					<ul>
-						<li>All</li>
-						<li id="events"><a href="#" onClick="dropdown()">Events</a></li>
-						<li>Knowledge</li>	
+						<li class="menu_list">All</li>
+						<li class="menu_list" id="events"><a href="#" onClick="dropdown()">Events</a></li>
+						<li class="menu_list">Knowledge</li>
+						<li><img id="search" src="img/search.png" alt="search"></li>	
 					</ul>
 			
 			</nav>
