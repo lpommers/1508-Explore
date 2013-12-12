@@ -29,10 +29,14 @@ a:visited{
 	margin-right: auto;
 }
 
-nav ul{
-	width: 90%;
+nav {
+	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+nav ul{
+	padding: 0;
 }
 
 #nav ul li{
@@ -40,7 +44,6 @@ nav ul{
 	color: #FF0000;
 	padding: 0 3%;
 	font-size: 1.2em;
-	text-align: center;
 }
 
 #search{
