@@ -1,23 +1,87 @@
-#banner{
-	border:5px solid black;
+
+.banner{
 	height: 10%;
-	padding: 15%;
 	margin-bottom: 5%;
-	background-color: #7ED3F7;
 }
 
-#menu {
-	border:5px solid black;
-	height: 20%;
-	padding: 2%; 
-	margin-bottom: 5%;
-	background-color: #FF0000;
+#logo{
+	padding: 3%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#photo {
-	border:5px solid black;
-	padding: 20%;
-	margin-left: 10%;
-	margin-right: 10%;
+.menu{
+	width: 85%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav ul li
+{
+	display: inline-block;
+	color: #FF0000;
+	padding: 0% 3%;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#dropdown{
+	display: none;
+	background-color: #80868E;
+	width: 100%;
+}
+
+#yearsmenu{
+	display: none;
+}
+
+#yearsmenu ul li{
+	color: #FFFFFF;
+	background-color: #80868E;
+	font-size: 1.2em;
+	text-align: center;
+	list-style-type: none;
+	width: 20%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#monthsmenu{
+	display: none;
+}
+
+#monthsmenu ul li{
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: #80868E;
+	list-style-type: none;
+	width: 20%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#dropdown ul li
+{
+	display: inline-block;
+	color: #FFFFFF;
+	padding: 0% 3%;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: #80868E;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.images{
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.photo {
 	margin-bottom: 3%;
+	width: 100%;
+	height: 85%;
+	margin-left: auto;
+	margin-right: auto;
+
 }

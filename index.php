@@ -4,23 +4,96 @@
 	<meta charset="UTF-8">
 	<title>1508 explore</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	  <script type="text/javascript">
+	   $(document).ready(function(){
+
+            // slides the navigation menu on mobile version
+            $('#events').click(function(){
+               $('#dropdown').slideToggle();
+            });
+
+
+            $('#years').click(function(){
+               $('#yearsmenu').slideToggle();
+            });
+
+
+            $('#months').click(function(){
+               $('#monthsmenu').slideToggle();
+            });
+
+            function dropdown() {
+            var ele = document.getElementById("hide");
+            if(ele.style.display == "block") {
+                ele.style.display = "none";
+            } else {
+            ele.style.display = "block";
+            }
+            }
+        });
+	  </script>
 
 </head>
 <body>
-	<div id="banner"> 
-		Banner/Logo
+	<div class="banner"> 
+		<img id="logo" src="img/logo.png" alt="logo">
 	</div>
-	<div id="menu">
-		Navigation menu
+	<div class="menu">
+		<nav id="nav">
+				
+					<ul>
+						<li>All</li>
+						<li id="events"><a href="#" onClick="dropdown()">Events</a></li>
+						<li>Knowledge</li>	
+					</ul>
+			
+			</nav>
+
+		<nav id="dropdown">
+			<ul>
+				<li id="years"><a href="#" onClick="dropdown()">Years</a></li>
+				<li id="months"><a href="#" onClick="dropdown()">Months</a></li>	
+			</ul>
+		</nav>
+
+		<nav id="yearsmenu">
+			<ul>
+				<li>2013</li>
+				<li>2012</li>
+				<li>2011</li>
+				<li>2010</li>
+				<li>2009</li>
+				<li>2008</li>
+				<li>2007</li>
+				<li>2006</li>	
+			</ul>
+		</nav>
+
+		<nav id="monthsmenu">
+			<ul>
+				<li>January</li>
+				<li>February</li>	
+				<li>March</li>
+				<li>April</li>
+				<li>May</li>
+				<li>June</li>
+				<li>July</li>
+				<li>August</li>
+				<li>September</li>
+				<li>October</li>
+				<li>Novermber</li>
+				<li>December</li>
+			</ul>
+		</nav>
+
 	</div>
-	<div id="photo">
-		photo/video
-	</div>
-	<div id="photo">
-		photo/video
-	</div>
-	<div id="photo">
-		photo/video
+	<div class="images">
+		<img class="photo" src="img/1.jpg" alt="picture">
+		<img class="photo" src="img/4.jpg" alt="picture">
+		<img class="photo" src="img/8.jpg" alt="picture">
 	</div>
 </body>
 </html>
