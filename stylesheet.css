@@ -2,9 +2,18 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
 }
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: #FF0000;
+}
+
 .banner{
-	height: 10%;
-	margin-bottom: 5%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #logo{
@@ -20,15 +29,18 @@ body{
 	margin-right: auto;
 }
 
-#nav ul li
-{
+nav ul{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#nav ul li{
 	display: inline-block;
 	color: #FF0000;
-	padding: 0% 3%;
+	padding: 0 3%;
 	font-size: 1.2em;
 	text-align: center;
-	text-decoration: none;
-
 }
 
 #search{
@@ -55,7 +67,6 @@ body{
 	text-align: center;
 	list-style-type: none;
 	width: 20%;
-	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #monthsmenu{
@@ -68,17 +79,14 @@ body{
 	text-align: center;
 	list-style-type: none;
 	width: 20%;
-	font-family: 'Source Sans Pro', sans-serif;
 }
 
-#dropdown ul li
-{
-	display: inline-block;
+#dropdown ul li{
+	display: inline-blo ck;
 	color: #FF0000;
 	padding: 0% 3%;
 	font-size: 1.2em;
 	text-align: center;
-	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .images{
