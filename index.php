@@ -12,12 +12,12 @@
 
             // slides the navigation menu on mobile version
             $('#events').click(function(){
-               $('#dropdown').slideToggle();
+               $('#yearsmenu').slideToggle();
             });
 
 
-            $('#years').click(function(){
-               $('#yearsmenu').slideToggle();
+            $('#2013').click(function(){
+               $('#monthsmenu').slideToggle();
             });
 
 
@@ -25,14 +25,7 @@
                $('#monthsmenu').slideToggle();
             });
 
-            function dropdown() {
-            var ele = document.getElementById("hide");
-            if(ele.style.display == "block") {
-                ele.style.display = "none";
-            } else {
-            ele.style.display = "block";
-            }
-            }
+
         });
 	  </script>
 
@@ -62,7 +55,7 @@
 
 		<nav id="yearsmenu">
 			<ul>
-				<li>2013</li>
+				<li id="2013"><a href="#" onClick="yearsmenu()">2013</a></li>
 				<li>2012</li>
 				<li>2011</li>
 				<li>2010</li>
