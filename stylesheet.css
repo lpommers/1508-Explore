@@ -2,6 +2,9 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
 	color: #FF0000;
+	max-width: 400px;
+	margin: auto;
+	border: 1px solid black;
 }
 a{
 	text-decoration: none;
@@ -116,6 +119,13 @@ h4{
 	margin-top: 1em;
 }
 
+.content_post{
+	width: 96%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
+	border-bottom: .1em solid #80868e;
+}
 
 .images{
 	margin-left: auto;
@@ -134,5 +144,6 @@ h4{
 #sign_up_button{
 	border: .1em solid #FF0000;
 	margin: auto;
+	margin-bottom: .5em;
 
 }

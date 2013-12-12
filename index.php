@@ -95,14 +95,23 @@
 
 	<div class='content_post'>
 		<h3>Lorem Ipsum</h3>
-		<h4>11 <b>|</b> DEC <b>|</b> 13</h4>
+		<h4>11 | DEC | 13</h4>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus lectus vitae enim consectetur sagittis. Aenean in mauris augue. Quisque in congue lectus. Donec ullamcorper sodales dolor at ornare. Phasellus non tempus augue. Donec posuere convallis adipiscing. Fusce in elementum dolor, vitae pretium leo</p>
 	</div>
 
-	<div class="images">
-		<img class="photo" src="img/1.jpg" alt="picture">
-		<img class="photo" src="img/4.jpg" alt="picture">
-		<img class="photo" src="img/8.jpg" alt="picture">
+	<div class='content_post'>
+		<h3>Responsive Web</h3>
+		<h4>DEC | 2013</h4>
+		<div class="images">
+			<img class="photo" src="img/4.jpg" alt="picture">
+		</div>
 	</div>
+
+	<div class='content_post'>
+		<h3>Lorem Ipsum</h3>
+		<h4>1 | DEC | 13</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus lectus vitae enim consectetur sagittis. Aenean in mauris augue. Quisque in congue lectus. Donec ullamcorper sodales dolor at ornare. Phasellus non tempus augue. Donec posuere convallis adipiscing. Fusce in elementum dolor, vitae pretium leo</p>
+	</div>
+
 </body>
 </html>
