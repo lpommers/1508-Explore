@@ -1,9 +1,16 @@
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
+	color: #FF0000;
 }
 a{
 	text-decoration: none;
+	color: #FF0000;
+}
+
+p{
+	color:#80868e;
+	font-weight: 200;
 }
 
 a:visited{
@@ -11,9 +18,10 @@ a:visited{
 }
 
 .banner{
-	width: 90%;
+	width: 96%;
 	margin-left: auto;
 	margin-right: auto;
+	border-bottom: solid .1em #80868e;
 }
 
 #logo{
@@ -24,9 +32,10 @@ a:visited{
 }
 
 .menu{
-	width: 95%;
+	width: 96%;
 	margin-left: auto;
 	margin-right: auto;
+	border-bottom: solid .1em #80868e;
 }
 
 nav {
@@ -41,9 +50,21 @@ nav ul{
 
 #nav ul li{
 	display: inline-block;
-	color: #FF0000;
 	padding: 0 3%;
 	font-size: 1.2em;
+}
+
+h3{
+	font-weight: 200;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+h4{
+	font-weight: 200;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 
 #search{
@@ -51,7 +72,7 @@ nav ul{
 }
 
 .menu_list{
-	border-right: 0.1em solid #FF0000;
+	border-right: 0.1em solid #80868e;
 }
 #dropdown{
 	display: none;
@@ -65,7 +86,6 @@ nav ul{
 }
 
 #yearsmenu ul li{
-	color: #FF0000;
 	font-size: 1.2em;
 	text-align: center;
 	list-style-type: none;
@@ -77,7 +97,6 @@ nav ul{
 }
 
 #monthsmenu ul li{
-	color: #FF0000;
 	font-size: 1.2em;
 	text-align: center;
 	list-style-type: none;
@@ -85,12 +104,18 @@ nav ul{
 }
 
 #dropdown ul li{
-	display: inline-blo ck;
-	color: #FF0000;
+	display: inline-block;
 	padding: 0% 3%;
 	font-size: 1.2em;
 	text-align: center;
 }
+
+#upcoming{
+	border: .2em solid #7ed3f7;
+	margin-bottom: .5em;
+	margin-top: 1em;
+}
+
 
 .images{
 	margin-left: auto;
@@ -104,5 +129,10 @@ nav ul{
 	height: 85%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#sign_up_button{
+	border: .1em solid #FF0000;
+	margin: auto;
 
 }

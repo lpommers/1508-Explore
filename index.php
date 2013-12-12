@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
-	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-	  <script type="text/javascript">
+	<script type="text/javascript">
 	   $(document).ready(function(){
 
             // slides the navigation menu on mobile version
@@ -28,7 +28,7 @@
 
 
         });
-	  </script>
+	</script>
 
 </head>
 <body>
@@ -37,15 +37,13 @@
 	</div>
 	<div class="menu">
 		<nav id="nav">
-
-					<ul>
-						<li class="menu_list">all</li>
-						<li class="menu_list" id="events"><a href="#" onClick="dropdown()">events</a></li>
-						<li class="menu_list">knowledge</li>
-						<li><img id="search" src="img/search.png" alt="search"></li>
-					</ul>
-
-			</nav>
+			<ul>
+				<li class="menu_list">all</li>
+				<li class="menu_list" id="events"><a href="#" onClick="dropdown()">events</a></li>
+				<li class="menu_list">knowledge</li>
+				<li><img id="search" src="img/search.png" alt="search"></li>
+			</ul>
+		</nav>
 
 		<nav id="dropdown">
 			<ul>
@@ -85,6 +83,22 @@
 		</nav>
 
 	</div>
+
+	<div class='content_post' id='upcoming'>
+		<h3>Upcoming Event:</h3>
+		<h4>Micro-Interactions</h4>
+		<div class="images">
+			<img class="photo" src="img/1.jpg" alt="picture">
+		</div>
+		<h4><a id='sign_up_button' href="sign_up_page">Sign Up</a></h4>
+	</div>
+
+	<div class='content_post'>
+		<h3>Lorem Ipsum</h3>
+		<h4>11 <b>|</b> DEC <b>|</b> 13</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus lectus vitae enim consectetur sagittis. Aenean in mauris augue. Quisque in congue lectus. Donec ullamcorper sodales dolor at ornare. Phasellus non tempus augue. Donec posuere convallis adipiscing. Fusce in elementum dolor, vitae pretium leo</p>
+	</div>
+
 	<div class="images">
 		<img class="photo" src="img/1.jpg" alt="picture">
 		<img class="photo" src="img/4.jpg" alt="picture">
