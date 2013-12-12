@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>1508 explore</title>
+	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
 	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -31,25 +32,25 @@
 
 </head>
 <body>
-	<div class="banner"> 
+	<div class="banner">
 		<img id="logo" src="img/logo.png" alt="logo">
 	</div>
 	<div class="menu">
 		<nav id="nav">
-				
+
 					<ul>
 						<li class="menu_list">all</li>
 						<li class="menu_list" id="events"><a href="#" onClick="dropdown()">events</a></li>
 						<li class="menu_list">knowledge</li>
-						<li><img id="search" src="img/search.png" alt="search"></li>	
+						<li><img id="search" src="img/search.png" alt="search"></li>
 					</ul>
-			
+
 			</nav>
 
 		<nav id="dropdown">
 			<ul>
 				<li id="years"><a href="#" onClick="dropdown()">Years</a></li>
-				<li id="months"><a href="#" onClick="dropdown()">Months</a></li>	
+				<li id="months"><a href="#" onClick="dropdown()">Months</a></li>
 			</ul>
 		</nav>
 
@@ -62,14 +63,14 @@
 				<li>2009</li>
 				<li>2008</li>
 				<li>2007</li>
-				<li>2006</li>	
+				<li>2006</li>
 			</ul>
 		</nav>
 
 		<nav id="monthsmenu">
 			<ul>
 				<li>JAN</li>
-				<li>FEB</li>	
+				<li>FEB</li>
 				<li>MAR</li>
 				<li>APR</li>
 				<li>MAY</li>
