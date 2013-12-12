@@ -68,18 +68,18 @@
 
 		<nav id="monthsmenu">
 			<ul>
-				<li>January</li>
-				<li>February</li>	
-				<li>March</li>
-				<li>April</li>
-				<li>May</li>
-				<li>June</li>
-				<li>July</li>
-				<li>August</li>
-				<li>September</li>
-				<li>October</li>
-				<li>Novermber</li>
-				<li>December</li>
+				<li>JAN</li>
+				<li>FEB</li>	
+				<li>MAR</li>
+				<li>APR</li>
+				<li>MAY</li>
+				<li>JUN</li>
+				<li>JUL</li>
+				<li>AUG</li>
+				<li>SEP</li>
+				<li>OCT</li>
+				<li>NOV</li>
+				<li>DEC</li>
 			</ul>
 		</nav>
 
