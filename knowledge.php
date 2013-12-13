@@ -61,8 +61,8 @@ $out .= "</form>";
 		<nav id="nav">
 				
 					<ul>
-						<li class="menu_list">All</li>
-						<li class="menu_list" id="events"><a href="#" onClick="dropdown()">Events</a></li>
+						<li class="menu_list" id="events"><a href="index.php" onClick="dropdown()">All<a></li>
+						<li class="menu_list" id="events"><a href="index.php" onClick="dropdown()">Events</a></li>
 						<li class="menu_list" id="knowledge"> <a href="knowledge.php">Knowledge</li>
 						<li><img id="search" src="img/search.png" alt="search"></li>	
 					</ul>
@@ -104,12 +104,32 @@ $out .= "</form>";
 				<li>December</li>
 			</ul>
 		</nav>
+	</div>
+	<div class="blog">
+		<h2> Blog 1 </h2>
+		<h4> 3 dec 2013 </h4>
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+	</div>
 
+	<div class="blog">
+		<h2> Blog 2 </h2>
+		<h4> 8 nov 2013 </h4>
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
 	</div>
-	<div class="images">
-		<img class="photo" src="img/1.jpg" alt="picture">
-		<img class="photo" src="img/4.jpg" alt="picture">
-		<img class="photo" src="img/8.jpg" alt="picture">
+
+	<div class="blog">
+		<h2> Blog 3 </h2>
+			<h4> 14 sep 2013 </h4>
+				<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
 	</div>
+
+
+
+	
+
+
+
+
 </body>
+
 </html>
