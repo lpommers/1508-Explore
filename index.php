@@ -1,7 +1,11 @@
+<?php
+	include("postcontent.php");
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+
 	<title>1508 explore</title>
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -18,55 +22,34 @@
 				<a href="http://1508.dk">1508.dk</a>
 			</div>
 
-			<div class='social_icons'>
-				<a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
-				<a href="#"><img src="img/facebook.png" alt="facebook"></a>
-				<a href="#"><img src="img/twitter.png" alt="twitter"></a>
-				<a href="#"><img src="img/vimeo.png" alt="vimeo"></a>
-			</div>
+			<ul class='social_icons'>
+				<li>
+					<a href="#"><img src="img/social/1508linked.png" alt="linkedin"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/social/1508fb.png" alt="facebook"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/social/1508slide.png" alt="twitter"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/social/1508tw.png" alt="vimeo"></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/social/1508vim.png" alt="vimeo"></a>
+				</li>
+			</ul>
 		</nav>
 	</header>
 
 	<nav class="filter_nav">
-		<a href="#">all</a>
-		<a href="#">events</a>
-		<a href="#">knowledge</a>
-		<a href="#"><img src="img/search.png" alt="search"></a>
+		<a href="#"><img src="img/nav-icons/house.png" alt="home"></a>
+		<a href="#"><img src="img/nav-icons/cal.png" alt="cal"></a>
+		<a href="#"><img src="img/nav-icons/light.png" alt="knowledge"></a>
+		<a href="#"><img src="img/nav-icons/people.png" alt="speakers"></a>
+		<a href="#"><img src="img/nav-icons/search.png" alt="search"></a>
 	</nav>
 
-	<div>
-		<h2>Lorum Ipsum</h2>
-		<h3>12 DEC 2013</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula rhoncus lorem, in auctor dui accumsan eget. Duis euismod tempor pellentesque. Nulla erat leo, varius eget felis non, volutpat ultricies eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras congue auctor erat, eget hendrerit augue convallis a.
-		</p>
-
-	</div>
-
-	<div>
-		<h2>Lorum Ipsum</h2>
-		<h3>12 DEC 2013</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula rhoncus lorem, in auctor dui accumsan eget. Duis euismod tempor pellentesque. Nulla erat leo, varius eget felis non, volutpat ultricies eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras congue auctor erat, eget hendrerit augue convallis a.
-		</p>
-
-	</div>
-
-	<div>
-		<h2>Lorum Ipsum</h2>
-		<h3>12 DEC 2013</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula rhoncus lorem, in auctor dui accumsan eget. Duis euismod tempor pellentesque. Nulla erat leo, varius eget felis non, volutpat ultricies eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras congue auctor erat, eget hendrerit augue convallis a.
-		</p>
-	</div>
-
-	<div>
-		<h2>Lorum Ipsum</h2>
-		<h3>12 DEC 2013</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula rhoncus lorem, in auctor dui accumsan eget. Duis euismod tempor pellentesque. Nulla erat leo, varius eget felis non, volutpat ultricies eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras congue auctor erat, eget hendrerit augue convallis a.
-		</p>
-
-	</div>
-
-
-
-
+	<?php echo grab_post(""); ?>
 </body>
 </html>

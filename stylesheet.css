@@ -4,17 +4,43 @@ body{
 	color: #FF0000;
 	max-width: 400px;
 	margin: auto;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	overflow: hidden;
 
+}
+h1{
+	font-weight: 200;
+}
+
+h2{
+	font-weight: 200;
 }
 
 #logo{
-width: 100%;
+	width: 100%;
 
 }
 
 .social_icons{
+	border:1px solid red;
+	list-style-type: none;
 	width: 100%;
+	overflow: hidden;
+	max-width: 400px;
 }
+
+.social_icons li{
+		display: inline;
+}
+.social_icons img {
+	width: 18%;
+	border:1px solid blue;
+	float: left;
+
+}
+
 
 .header_about_links{
 	width: 100%;
@@ -33,11 +59,7 @@ width: 100%;
 	border-right: 1px solid #80868e;
 }
 
-.social_icons{
-	width: 60%;
-	margin-left: auto;
-	margin-right:auto;
-}
+
 a:visited{
 	color: #FF0000;
 }
@@ -55,6 +77,13 @@ a:visited{
 	background-color: #FF0000;
 }
 
-.filter_nav a{
-	color: #FFFFFF;
+.filter_nav a {
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-top: .1em;
+}
+
+.filter_nav a img{
+	width: 70%;
 }
