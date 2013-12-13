@@ -1,0 +1,60 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	color: #FF0000;
+	max-width: 400px;
+	margin: auto;
+
+}
+
+#logo{
+width: 100%;
+
+}
+
+.social_icons{
+	width: 100%;
+}
+
+.header_about_links{
+	width: 100%;
+}
+
+.header_about_links a {
+	width: 49%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	text-align: center;
+	font-size: 2em;
+}
+
+#about_us_link{
+	border-right: 1px solid #80868e;
+}
+
+.social_icons{
+	width: 60%;
+	margin-left: auto;
+	margin-right:auto;
+}
+a:visited{
+	color: #FF0000;
+}
+
+
+.filter_nav{
+	font-size: 2em;
+	/*get rid of this mac width later - i don't think it should be here*/
+	width: 400px;
+	max-width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	top: 95%;
+	background-color: #FF0000;
+}
+
+.filter_nav a{
+	color: #FFFFFF;
+}
