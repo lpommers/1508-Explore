@@ -18,7 +18,7 @@
 
 		<nav class='header_nav'>
 			<div class='header_about_links'>
-				<a id = 'about_us_link' href="#">About us</a>
+				<a id = 'about_us_link' href="#">about</a>
 				<a href="http://1508.dk">1508.dk</a>
 			</div>
 
@@ -41,14 +41,25 @@
 			</ul>
 		</nav>
 	</header>
-
-	<nav class="filter_nav">
-		<a href="#"><img src="img/nav-icons/house.png" alt="home"></a>
-		<a href="#"><img src="img/nav-icons/cal.png" alt="cal"></a>
-		<a href="#"><img src="img/nav-icons/light.png" alt="knowledge"></a>
-		<a href="#"><img src="img/nav-icons/people.png" alt="speakers"></a>
-		<a href="#"><img src="img/nav-icons/search.png" alt="search"></a>
-	</nav>
+	<div class="filter_wrapper">
+	<ul class="filter_nav">
+		<li>
+			<a href="#"><img src="img/nav-icons/house.png" alt="home"></a>
+		</li>
+		<li>
+			<a href="#"><img src="img/nav-icons/cal.png" alt="cal"></a>
+		</li>
+		<li>
+			<a href="#"><img src="img/nav-icons/light.png" alt="knowledge"></a>
+		</li>
+		<li>
+			<a href="#"><img src="img/nav-icons/people.png" alt="speakers"></a>
+		</li>
+		<li>
+			<a href="#"><img src="img/nav-icons/search.png" alt="search"></a>
+		</li>
+	</ul>
+	</div>
 
 	<?php echo grab_post(""); ?>
 </body>
