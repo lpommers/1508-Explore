@@ -103,13 +103,13 @@ a:visited{
 
 #all_posts {
 
-	width:90%;
+	width:100%;
 	margin:auto;
 }
 
-.individual_post{
-	
+.individual_post{	
 	border-top:1px solid #80868e;
+	padding:0 1em;
 }
 
 .individual_post:last-child{
