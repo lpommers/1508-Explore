@@ -14,7 +14,7 @@ function grab_post($specific){
 	$out.="<div id='all_posts'>";
 
 	while($data=mysql_fetch_assoc($result)){
-	$id = $data['id'];
+	$id = $data['ID'];
 	$postcategory = $data['category'];
 	$posttitle = $data['title'];
 	$postdate = $data['date'];
@@ -23,8 +23,8 @@ function grab_post($specific){
 	$posttext = $data['text'];
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individual_post'>";
-	$out.= "<h1>$postcategory:</h1>";
-	$out.= "<h2><a href='event.php?id=$id'>$posttitle - </a><span>$postdate $posttime</span></h2>";
+	$out.= "<h2>$postcategory:</h2>";
+	$out.= "<h1><a href='event.php?id=$id'>$posttitle - </a><span>$postdate $posttime</span></h1>";
 		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}

@@ -3,19 +3,21 @@
 include("dbconnect.php");
 $out="";
 
+
+$post_id = $_GET['id'];
 //for grabbing post title
 
-function event_post($specific){
+function single_post($specific){
 
-	$postinfo= "SELECT * FROM $specific";
+	$postinfo= "SELECT * FROM 1508content $specific";
 	$result = mysql_query($postinfo);
 
 	$out=" ";
 	$out.="<div id='allposts'>";
 
 
-	$data=mysql_fetch_assoc($result))
-	$id = $data['id'];
+	$data=mysql_fetch_assoc($result);
+	$id = $data['ID'];
 	$postcategory = $data['category'];
 	$posttitle = $data['title'];
 	$postdate = $data['date'];
@@ -103,6 +105,6 @@ function event_post($specific){
 		</ul>
 	</div>
 
-
+	<?php echo single_post("WHERE ID = $post_id"); ?>
 </body>
 </html>
