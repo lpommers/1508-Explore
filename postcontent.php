@@ -30,7 +30,7 @@ function grab_post($specific){
 			}
 	$out.="<p class='header'>$postheader</p>";
 		if (empty($postvideo)) {
-			$out.= "<div class='sign_up'><a href='#'>Sign Up</a>";
+			$out.= "<div class='sign_up'><a href='#'>Sign Up</a></div>";
 		}
 
 	$out.= "</div>";
@@ -70,7 +70,7 @@ function single_post($specific){
 	$out.="<p class='header'>$postheader</p>";
 
 		if (empty($postvideo)) {
-			$out.= "<div><a>Sign Up</a>";
+			$out.= "<div><a>Sign Up</a></div>";
 		}
 
 	$out.= "</div>";
@@ -100,7 +100,8 @@ function all_people($specific){
 				<h2 class='person_position'>$position</h2>
 				<h3 class='person_blurb'>$blurb_text</h3>
 			</div>
-		</div>";
+		</div>
+	</div>";
 	}
 	return $out;
 }

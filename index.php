@@ -21,22 +21,22 @@
 				<div><a href="#">about</a></div>
 				<div><a href="http://1508.dk">1508.dk</a></div>
 			</div>
-			
+
 			<ul class='social_icons'>
 				<li>
-					<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1"><img src="img/social/1508linked.png" alt="linkedin"></a>
+					<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1" target='_blank'><img src="img/social/1508linked.png" alt="linkedin"></a>
 				</li>
 				<li>
-					<a href="https://www.facebook.com/1508dk"><img src="img/social/1508fb.png" alt="facebook"></a>
+					<a href="https://www.facebook.com/1508dk" target='_blank'><img src="img/social/1508fb.png" alt="facebook"></a>
 				</li>
 				<li>
-					<a href="http://www.slideshare.net/1508as"><img src="img/social/1508slide.png" alt="twitter"></a>
+					<a href="http://www.slideshare.net/1508as" target='_blank'><img src="img/social/1508slide.png" alt="twitter"></a>
 				</li>
 				<li>
-					<a href="https://twitter.com/1508AS"><img src="img/social/1508tw.png" alt="vimeo"></a>
+					<a href="https://twitter.com/1508AS" target='_blank'><img src="img/social/1508tw.png" alt="vimeo"></a>
 				</li>
 				<li>
-					<a href="http://vimeo.com/design1508/videos"><img src="img/social/1508vim.png" alt="vimeo"></a>
+					<a href="http://vimeo.com/design1508/videos" target='_blank'><img src="img/social/1508vim.png" alt="vimeo"></a>
 				</li>
 			</ul>
 		</header>
@@ -60,7 +60,8 @@
 		</li>
 	</ul>
 	</div>
-
-	<?php echo grab_post(""); ?>
+	<div class='content'>
+		<?php echo grab_post(""); ?>
+	</div>
 </body>
 </html>

@@ -24,40 +24,37 @@ $post_id = $_GET['id'];
 </head>
 <body>
 	<header>
-		<a href="index.php"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
-
-		<nav class='header_nav'>
+		<a href="#"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
 			<div class='header_about_links'>
-				<a id = 'about_us_link' href="#">about</a>
-				<a href="http://1508.dk">1508.dk</a>
+				<div><a href="#">about</a></div>
+				<div><a href="http://1508.dk">1508.dk</a></div>
 			</div>
 
 			<ul class='social_icons'>
 				<li>
-					<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1"><img src="img/social/1508linked.png" alt="linkedin"></a>
+					<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1" target='_blank'><img src="img/social/1508linked.png" alt="linkedin"></a>
 				</li>
 				<li>
-					<a href="https://www.facebook.com/1508dk"><img src="img/social/1508fb.png" alt="facebook"></a>
+					<a href="https://www.facebook.com/1508dk" target='_blank'><img src="img/social/1508fb.png" alt="facebook"></a>
 				</li>
 				<li>
-					<a href="http://www.slideshare.net/1508as"><img src="img/social/1508slide.png" alt="twitter"></a>
+					<a href="http://www.slideshare.net/1508as" target='_blank'><img src="img/social/1508slide.png" alt="twitter"></a>
 				</li>
 				<li>
-					<a href="https://twitter.com/1508AS"><img src="img/social/1508tw.png" alt="vimeo"></a>
+					<a href="https://twitter.com/1508AS" target='_blank'><img src="img/social/1508tw.png" alt="vimeo"></a>
 				</li>
 				<li>
-					<a href="http://vimeo.com/design1508/videos"><img src="img/social/1508vim.png" alt="vimeo"></a>
+					<a href="http://vimeo.com/design1508/videos" target='_blank'><img src="img/social/1508vim.png" alt="vimeo"></a>
 				</li>
 			</ul>
-		</nav>
-	</header>
+		</header>
 	<div class="filter_wrapper">
 		<ul class="filter_nav">
 			<li>
 				<a href="index.php"><img src="img/nav-icons/house.png" alt="home"></a>
 			</li>
 			<li>
-				<a href="#"><img src="img/nav-icons/cal.png" alt="cal"></a>
+				<a href="events.php"><img src="img/nav-icons/cal.png" alt="cal"></a>
 			</li>
 			<li>
 				<a href="knowledge.php"><img src="img/nav-icons/light.png" alt="knowledge"></a>
@@ -71,6 +68,8 @@ $post_id = $_GET['id'];
 		</ul>
 	</div>
 
-	<?php echo single_post("WHERE ID = $post_id"); ?>
+	<div class='content'>
+		<?php echo single_post("WHERE ID = $post_id"); ?>
+	</div>
 </body>
 </html>
