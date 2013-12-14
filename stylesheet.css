@@ -8,16 +8,11 @@ body{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;
-
-
-}
-h1{
-	font-weight: 200;
 }
 
-h2{
-	font-weight: 200;
-}
+/*===============
+	header
+=================*/
 
 #logo{
 	width: 100%;
@@ -75,6 +70,8 @@ a:visited{
 	bottom: 0;
 }
 
+/*main navigation*/
+
 .filter_nav {
 	border:1px solid blue;
 	font-size: 2em;
@@ -95,3 +92,41 @@ a:visited{
 .filter_nav img{
 	margin-top: .2em;
 }
+
+/*===============
+	posts
+=================*/
+
+#all_posts {
+
+	width:90%;
+	margin:auto;
+}
+
+.individual_post{
+	
+	border-top:1px solid #80868e;
+}
+
+.individual_post:last-child{
+	border-bottom:1px solid #80868e;
+}
+
+.sign_up{
+
+	color:white;
+	background-color:#7ed3f7;
+	width:100%;
+	
+}
+
+h1, h2{
+
+	font-weight: 200;
+}
+
+h2{
+	font-size:1.2em;
+}
+
+

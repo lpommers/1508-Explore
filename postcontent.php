@@ -11,7 +11,7 @@ function grab_post($specific){
 	$result = mysql_query($postinfo);
 
 	$out=" ";
-	$out.="<div id='allposts'>";
+	$out.="<div id='all_posts'>";
 
 	while($data=mysql_fetch_assoc($result)){
 	$postcategory = $data['category'];
@@ -21,7 +21,7 @@ function grab_post($specific){
 	$postheader = $data['headertext'];
 	$posttext = $data['text'];
 	$postvideo = $data['videolink'];
-	$out.= "<div class='individualpost'>";
+	$out.= "<div class='individual_post'>";
 	$out.= "<h1>$postcategory:</h1>";
 	$out.= "<h2>$posttitle - <span>$postdate $posttime</span></h2>";
 		if (!empty($postvideo)){
@@ -29,7 +29,7 @@ function grab_post($specific){
 			}
 	$out.="<p class='header'>$postheader</p>";
 		if (empty($postvideo)) {
-			$out.= "<a>Sign Up</a>";
+			$out.= "<a href='#' class='sign_up'>Sign Up</a>";
 		}
 
 	$out.= "</div>";
