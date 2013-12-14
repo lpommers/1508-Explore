@@ -18,11 +18,10 @@
 		<header>
 		<a href="#"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
 			<div class='header_about_links'>
-				<p><a id = 'about_us_link' href="#">about</a></p>
-				<p><a href="http://1508.dk">1508.dk</a></p>
+				<div><a href="#">about</a></div>
+				<div><a href="http://1508.dk">1508.dk</a></div>
 			</div>
-			</header>
-
+			
 			<ul class='social_icons'>
 				<li>
 					<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1"><img src="img/social/1508linked.png" alt="linkedin"></a>
@@ -40,6 +39,7 @@
 					<a href="http://vimeo.com/design1508/videos"><img src="img/social/1508vim.png" alt="vimeo"></a>
 				</li>
 			</ul>
+		</header>
 
 	<div class="filter_wrapper">
 	<ul class="filter_nav">

@@ -35,24 +35,25 @@ body{
 		display: inline;
 		overflow: hidden;
 }
+
 .social_icons img {
 	width: 15%;
 	margin-left: 1.8%;
 	margin-right: 1.8%;
 }
 
-
-.header_about_links{
-	width: 100%;
-	border:1px solid blue;
-	line-height:0;
-}
-
 .header_about_links {
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	font-size: 2em;
+}
+
+
+.header_about_links div{
+	display:inline-block;
+	width: 49%;
 }
 
 /*#about_us_link{
@@ -66,6 +67,7 @@ a{
 a:visited{
 	color: #FF3600;
 }
+
 .filter_wrapper {
 	width: 400px;
 	max-width: 400px;
