@@ -61,9 +61,10 @@ function single_post($specific){
 	$postheader = $data['headertext'];
 	$posttext = $data['text'];
 	$postvideo = $data['videolink'];
-	$out.= "<div class='individualpost'>";
-	$out.= "<h1>$postcategory:</h1>";
-	$out.= "<h2>$posttitle - <span>$postdate $posttime</span></h2>";
+	$out.= "<div class='individual_post'>";
+	$out.= "<h2>$postcategory:</h2>";
+	$out.= "<h1>$posttitle</h1>";
+	$out.="<h3>$postdate $posttime</h3>";
 		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
@@ -92,17 +93,18 @@ function all_people($specific){
 	$name = $data['name'];
 	$position = $data['position'];
 	$blurb_text = $data['first text'];
+	$firstimage = $data['first image'];
 
-	$out.="<h2 class = 'category'>People</h2>
-		<div class='person_wrapper'>
+	$out.="<div class='person_wrapper'>
 			<div class='person_text'>
 				<h1 class='person_name'>$name</h1>
 				<h2 class='person_position'>$position</h2>
 				<h3 class='person_blurb'>$blurb_text</h3>
 			</div>
-		</div>
+			<div class='person_images'><img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'></div>
 	</div>";
 	}
+	
 	return $out;
 }
 

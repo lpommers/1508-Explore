@@ -109,7 +109,7 @@ a:visited{
 
 .individual_post{	
 	border-top:1px solid #80868e;
-	padding:0 1em;
+	padding:0.4em 1em;
 }
 
 .individual_post:last-child{
@@ -155,4 +155,17 @@ p.header {
 	color:#80868e;
 }
 
+/*===============
+	people page
+=================*/
+
+.person_wrapper {
+	width:100%;
+
+}
+
+.person_images {
+	width:100%;
+
+}
 
