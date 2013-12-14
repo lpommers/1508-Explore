@@ -6,9 +6,6 @@ include("postcontent.php");
 $out="";
 
 
-$post_id = $_GET['ID'];
-//for grabbing post title
-
 
 ?>
 

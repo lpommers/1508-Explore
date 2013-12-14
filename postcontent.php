@@ -88,7 +88,7 @@ function all_people($specific){
 	$out = " ";
 	$out.=" <div id='allposts'>";
 
-	$data=mysql_fetch_assoc($result);
+	while($data=mysql_fetch_assoc($result)){
 	$name = $data['name'];
 	$position = $data['position'];
 	$blurb_text = $data['first text'];
@@ -101,7 +101,7 @@ function all_people($specific){
 				<h3 class='person_blurb'>$blurb_text</h3>
 			</div>
 		</div>";
-
+	}
 	return $out;
 }
 
