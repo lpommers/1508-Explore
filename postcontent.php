@@ -24,7 +24,8 @@ function grab_post($specific){
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individual_post'>";
 	$out.= "<h2>$postcategory:</h2>";
-	$out.= "<h1><a href='event.php?id=$id'>$posttitle - </a><span>$postdate $posttime</span></h1>";
+	$out.= "<h1><a href='event.php?id=$id'>$posttitle</a></h1>";
+	$out.= "<h3>$postdate $posttime</h3>";
 		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
@@ -63,8 +64,9 @@ function single_post($specific){
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individualpost'>";
 	$out.= "<h1>$postcategory:</h1>";
-	$out.= "<h2>$posttitle - <span>$postdate $posttime</span></h2>";
-		if (!empty($postvideo)){
+	$out.= "<h1><a href='event.php?id=$id'>$posttitle</a></h1>";
+	$out.= "<h3>$postdate $posttime</h3>";
+			if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
 	$out.="<p class='header'>$postheader</p>";
