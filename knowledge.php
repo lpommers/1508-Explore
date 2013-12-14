@@ -47,7 +47,7 @@
 				<a href="index.php"><img src="img/nav-icons/house.png" alt="home"></a>
 			</li>
 			<li>
-				<a href="#"><img src="img/nav-icons/cal.png" alt="cal"></a>
+				<a href="people.php"><img src="img/nav-icons/cal.png" alt="cal"></a>
 			</li>
 			<li>
 				<a href="knowledge.php"><img src="img/nav-icons/light.png" alt="knowledge"></a>
