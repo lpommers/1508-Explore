@@ -11,35 +11,13 @@ body{
 }
 
 /*===============
-	heading!
+	header
 =================*/
 
+#logo{
+	width: 100%;
 
-header {
-	width:100%;
 }
-
-#logo {
-	width:49%;
-	float:left;
-}
-
-.header_about_links{
-	width: 49%;
-	height:auto;
-	float:left;
-	border:1px solid blue;
-	line-height:0;
-}
-
-.header_about_links {
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	font-size: 2em;
-}
-
-/*social media*/
 
 .social_icons{
 
@@ -63,6 +41,19 @@ header {
 	margin-right: 1.8%;
 }
 
+
+.header_about_links{
+	width: 100%;
+	border:1px solid blue;
+	line-height:0;
+}
+
+.header_about_links {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 2em;
+}
 
 /*#about_us_link{
 	border-right: 1px solid #80868e;
