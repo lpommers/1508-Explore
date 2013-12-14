@@ -61,6 +61,6 @@
 		</ul>
 	</div>
 
-	<?php echo grab_post(""); ?>
+	<?php echo grab_post("WHERE CATEGORY = 'Upcoming Event'"); ?>
 </body>
 </html>
