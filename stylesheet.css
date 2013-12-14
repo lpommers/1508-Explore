@@ -129,14 +129,18 @@ a:visited{
 }
 
 
-h1, h2{
-
+h1, h2, h3, p{
 	font-weight: 200;
 }
 
 h2{
 	color:#80868e;
 	font-size:1.2em;
+}
+
+h3{
+	color:#80868e;
+	font-weight: 400;
 }
 
 p.header {
