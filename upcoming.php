@@ -42,23 +42,23 @@
 		</nav>
 	</header>
 	<div class="filter_wrapper">
-	<ul class="filter_nav">
-		<li>
-			<a href="#"><img src="img/nav-icons/house.png" alt="home"></a>
-		</li>
-		<li>
-			<a href="upcoming.php"><img src="img/nav-icons/cal.png" alt="cal"></a>
-		</li>
-		<li>
-			<a href="#"><img src="img/nav-icons/light.png" alt="knowledge"></a>
-		</li>
-		<li>
-			<a href="#"><img src="img/nav-icons/people.png" alt="speakers"></a>
-		</li>
-		<li>
-			<a href="#"><img src="img/nav-icons/search.png" alt="search"></a>
-		</li>
-	</ul>
+		<ul class="filter_nav">
+			<li>
+				<a href="index.php"><img src="img/nav-icons/house.png" alt="home"></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/nav-icons/cal.png" alt="cal"></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/nav-icons/light.png" alt="knowledge"></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/nav-icons/people.png" alt="speakers"></a>
+			</li>
+			<li>
+				<a href="#"><img src="img/nav-icons/search.png" alt="search"></a>
+			</li>
+		</ul>
 	</div>
 
 	<?php echo grab_post(""); ?>
