@@ -71,6 +71,6 @@ $post_id = $_GET['ID'];
 		</ul>
 	</div>
 
-	<?php echo single_post("WHERE ID = $post_id"); ?>
+	<?php echo all_people(""); ?>
 </body>
 </html>

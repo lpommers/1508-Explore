@@ -24,8 +24,7 @@ function grab_post($specific){
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individual_post'>";
 	$out.= "<h2>$postcategory:</h2>";
-	$out.= "<h1><a href='event.php?id=$id'>$posttitle</a></h1>";
-	$out.= "<h3>$postdate $posttime</h3>";
+	$out.= "<h1><a href='event.php?id=$id'>$posttitle - </a><span>$postdate $posttime</span></h1>";
 		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
@@ -64,12 +63,12 @@ function single_post($specific){
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individualpost'>";
 	$out.= "<h1>$postcategory:</h1>";
-	$out.= "<h1><a href='event.php?id=$id'>$posttitle</a></h1>";
-	$out.= "<h3>$postdate $posttime</h3>";
-			if (!empty($postvideo)){
+	$out.= "<h2>$posttitle - <span>$postdate $posttime</span></h2>";
+		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
 	$out.="<p class='header'>$postheader</p>";
+
 		if (empty($postvideo)) {
 			$out.= "<div><a>Sign Up</a>";
 		}
@@ -82,7 +81,28 @@ function single_post($specific){
 
 	}
 
+function all_people($specific){
+	$postinfo = "SELECT * FROM people $specific";
+	$result = mysql_query($postinfo);
 
+	$out = " ";
+	$out.=" <div id='allposts'>";
 
+	$data=mysql_fetch_assoc($result);
+	$name = $data['name'];
+	$position = $data['position'];
+	$blurb_text = $data['first text'];
+
+	$out.="<h2 class = 'category'>People</h2>
+		<div class='person_wrapper'>
+			<div class='person_text'>
+				<h1 class='person_name'>$name</h1>
+				<h2 class='person_position'>$position</h2>
+				<h3 class='person_blurb'>$blurb_text</h3>
+			</div>
+		</div>";
+
+	return $out;
+}
 
 ?>
