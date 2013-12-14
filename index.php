@@ -18,8 +18,8 @@
 		<header>
 		<a href="#"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
 			<div class='header_about_links'>
-				<p><a id = 'about_us_link' href="#">about</a><p> 
-				<p><a href="http://1508.dk">1508.dk</a><p>
+				<p><a id = 'about_us_link' href="#">about</a></p> 
+				<p><a href="http://1508.dk">1508.dk</a></p>
 			</div>
 			</header>
 

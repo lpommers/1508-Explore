@@ -14,22 +14,20 @@ body{
 	heading!
 =================*/
 
-#logo{
-	width: 100%;
-
-}
 
 header {
 	width:100%;
 }
 
-header img {
+#logo {
 	width:49%;
 	float:left;
 }
 
 .header_about_links{
-	width: 100%;
+	width: 49%;
+	height:auto;
+	float:left;
 	border:1px solid blue;
 	line-height:0;
 }
