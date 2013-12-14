@@ -60,7 +60,8 @@
 			</li>
 		</ul>
 	</div>
-
+	<div class='content'>
 	<?php echo grab_post("WHERE CATEGORY != 'knowledge'"); ?>
+	</div>
 </body>
 </html>

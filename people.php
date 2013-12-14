@@ -26,7 +26,7 @@ $out="";
 		<nav class='header_nav'>
 			<div class='header_about_links'>
 				<a id = 'about_us_link' href="#">about</a>
-				<a href="http://1508.dk">1508.dk</a>
+				<a href="http://1508.dk"> 1508.dk</a>
 			</div>
 
 			<ul class='social_icons'>
@@ -54,7 +54,7 @@ $out="";
 				<a href="index.php"><img src="img/nav-icons/house.png" alt="home"></a>
 			</li>
 			<li>
-				<a href="events.php"><img src="img/nav-icons/cal.png" alt="cal"></a>
+				<a href="#"><img src="img/nav-icons/cal.png" alt="cal"></a>
 			</li>
 			<li>
 				<a href="knowledge.php"><img src="img/nav-icons/light.png" alt="knowledge"></a>
@@ -67,9 +67,8 @@ $out="";
 			</li>
 		</ul>
 	</div>
-
 	<div class='content'>
-		<?php echo all_people(""); ?>
+	<?php echo all_people(""); ?>
 	</div>
 </body>
 </html>

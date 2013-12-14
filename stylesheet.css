@@ -10,6 +10,10 @@ body{
 	box-sizing: border-box;
 }
 
+.content {
+	margin-bottom:30%;
+}
+
 /*===============
 	header
 =================*/
@@ -69,15 +73,17 @@ a:visited{
 }
 
 .filter_wrapper {
-	width: 400px;
-	max-width: 400px;
+	border:1px solid blue;
+	width: 100%;
 	position: fixed;
 	bottom: 0;
+	z-index: 10;
 }
 
 /*main navigation*/
 
 .filter_nav {
+	width:100%;
 	font-size: 2em;
 	/*get rid of this mac width later - i don't think it should be here*/
 	margin: auto;
@@ -141,12 +147,12 @@ h1, h2, h3 {
 	margin: 0.3em 0;
 }
 
-h2{
+h3{
 	color:#80868e;
 	font-size:1.2em;
 }
 
-h3{
+h2{
 	color:#80868e;
 	font-weight: 400;
 }
@@ -160,12 +166,32 @@ p.header {
 =================*/
 
 .person_wrapper {
+	position:relative;
 	width:100%;
 
 }
 
-.person_images {
+.person_wrapper img {
 	width:100%;
 
+}
+
+.person_text {
+	position:absolute;
+	top:0;
+	left:4%;
+	width:35%;
+}
+
+.person_wrapper h1 {
+	font-size: 1.5em;
+}
+
+.person_wrapper h2 {
+	font-size: 1.2em;
+}
+
+.person_wrapper h3 {
+	font-size: 0.9em;
 }
 

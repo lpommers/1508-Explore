@@ -23,8 +23,9 @@ function grab_post($specific){
 	$posttext = $data['text'];
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individual_post'>";
-	$out.= "<h2>$postcategory:</h2>";
-	$out.= "<h1><a href='post.php?id=$id'>$posttitle - </a><span>$postdate $posttime</span></h1>";
+	$out.= "<h3>$postcategory:</h3>";
+	$out.= "<h1><a href='post.php?id=$id'>$posttitle</a></h1>";
+	$out.="<h2>$postdate $posttime</h2>";
 		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
@@ -62,9 +63,9 @@ function single_post($specific){
 	$posttext = $data['text'];
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individual_post'>";
-	$out.= "<h2>$postcategory:</h2>";
+	$out.= "<h3>$postcategory:</h3>";
 	$out.= "<h1>$posttitle</h1>";
-	$out.="<h3>$postdate $posttime</h3>";
+	$out.="<h2>$postdate $posttime</h2>";
 		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
@@ -99,9 +100,8 @@ function all_people($specific){
 			<div class='person_text'>
 				<h1 class='person_name'>$name</h1>
 				<h2 class='person_position'>$position</h2>
-				<h3 class='person_blurb'>$blurb_text</h3>
 			</div>
-			<div class='person_images'><img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'></div>
+			<img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'>
 	</div>";
 	}
 	
