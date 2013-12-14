@@ -112,11 +112,12 @@ a:visited{
 	border-bottom:1px solid #80868e;
 }
 
-.sign_up{
+a.sign_up{
 
 	color:white;
 	background-color:#7ed3f7;
 	width:100%;
+	margin-bottom:1em;
 	
 }
 

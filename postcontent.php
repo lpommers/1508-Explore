@@ -11,7 +11,7 @@ function grab_post($specific){
 	$result = mysql_query($postinfo);
 
 	$out=" ";
-	$out.="<div id='all_posts'>";
+	$out.="<div id='all_posts'>";	
 
 	while($data=mysql_fetch_assoc($result)){
 	$postcategory = $data['category'];
@@ -35,8 +35,6 @@ function grab_post($specific){
 	$out.= "</div>";
 
 	}
-
-
 
 	$out.="</div>";
 
