@@ -24,7 +24,7 @@ function grab_post($specific){
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individual_post'>";
 	$out.= "<h2>$postcategory:</h2>";
-	$out.= "<h1><a href='event.php?id=$id'>$posttitle - </a><span>$postdate $posttime</span></h1>";
+	$out.= "<h1><a href='post.php?id=$id'>$posttitle - </a><span>$postdate $posttime</span></h1>";
 		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
