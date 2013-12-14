@@ -14,7 +14,7 @@
 </head>
 <body>
 	<header>
-		<a href="#"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
+		<a href="index.php"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
 
 		<nav class='header_nav'>
 			<div class='header_about_links'>
