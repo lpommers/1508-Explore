@@ -31,19 +31,19 @@ $out="";
 
 			<ul class='social_icons'>
 				<li>
-					<a href="#"><img src="img/social/1508linked.png" alt="linkedin"></a>
+					<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1"><img src="img/social/1508linked.png" alt="linkedin"></a>
 				</li>
 				<li>
-					<a href="#"><img src="img/social/1508fb.png" alt="facebook"></a>
+					<a href="https://www.facebook.com/1508dk"><img src="img/social/1508fb.png" alt="facebook"></a>
 				</li>
 				<li>
-					<a href="#"><img src="img/social/1508slide.png" alt="twitter"></a>
+					<a href="http://www.slideshare.net/1508as"><img src="img/social/1508slide.png" alt="twitter"></a>
 				</li>
 				<li>
-					<a href="#"><img src="img/social/1508tw.png" alt="vimeo"></a>
+					<a href="https://twitter.com/1508AS"><img src="img/social/1508tw.png" alt="vimeo"></a>
 				</li>
 				<li>
-					<a href="#"><img src="img/social/1508vim.png" alt="vimeo"></a>
+					<a href="http://vimeo.com/design1508/videos"><img src="img/social/1508vim.png" alt="vimeo"></a>
 				</li>
 			</ul>
 		</nav>
@@ -60,7 +60,7 @@ $out="";
 				<a href="knowledge.php"><img src="img/nav-icons/light.png" alt="knowledge"></a>
 			</li>
 			<li>
-				<a href="#"><img src="img/nav-icons/people.png" alt="speakers"></a>
+				<a href="people.php"><img src="img/nav-icons/people.png" alt="speakers"></a>
 			</li>
 			<li>
 				<a href="#"><img src="img/nav-icons/search.png" alt="search"></a>
