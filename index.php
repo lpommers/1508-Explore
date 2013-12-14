@@ -15,14 +15,13 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
-	<header>
+		<header>
 		<a href="#"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
-
-		<nav class='header_nav'>
 			<div class='header_about_links'>
-				<a id = 'about_us_link' href="#">about</a>
-				<a href="http://1508.dk">1508.dk</a>
+				<p><a id = 'about_us_link' href="#">about</a><p> 
+				<p><a href="http://1508.dk">1508.dk</a><p>
 			</div>
+			</header>
 
 			<ul class='social_icons'>
 				<li>
@@ -41,8 +40,7 @@
 					<a href="#"><img src="img/social/1508vim.png" alt="vimeo"></a>
 				</li>
 			</ul>
-		</nav>
-	</header>
+
 	<div class="filter_wrapper">
 	<ul class="filter_nav">
 		<li>
