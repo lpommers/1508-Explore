@@ -31,7 +31,7 @@ function event_post($specific){
 			}
 	$out.="<p class='header'>$postheader</p>";
 		if (empty($postvideo)) {
-			$out.= "<a>Sign Up</a>";
+			$out.= "<div><a>Sign Up</a>";
 		}
 
 	$out.= "</div>";
