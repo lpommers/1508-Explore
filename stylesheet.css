@@ -230,16 +230,16 @@ p.header {
 
 	}
 
+.contact_details p {
+	float:left;
+}
+
 .contact_details ul {
 	list-style-type: none;
-	position:relative;
-
+	float:right;
 }
 
-.contact_details div:nth-child(2) {
-	position:absolute;
-	left:50%;
-}
+
 
 /*================
 DESKTOP BREAKPOINT
