@@ -256,6 +256,27 @@ individual speaker
 	float:right;
 }
 
+/*================
+IFRAME VIDEO PLAYER
+==================*/
+
+iframe{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+/*=========
+	sign up & search general styles
+	===========*/
+	form input {
+		width:100%;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 200;
+		color: #ff3600;
+		font-size: 1.3em;
+	}
 
 /*================
 DESKTOP BREAKPOINT
@@ -302,7 +323,7 @@ DESKTOP BREAKPOINT
 	all the CONTENT & NAVIGATION - off to the left
 	===========================*/
 	.content {
-		width: 35%;
+		width: 40%;
 		min-width:350px;
 		float:right;
 		margin-bottom: 0;
@@ -314,7 +335,7 @@ DESKTOP BREAKPOINT
 	}
 
 
-	.individual_post{
+	.individual_post, .person_wrapper{
 		background-color: #FFF;
 		margin-bottom:  1em;
 		border: none;
@@ -334,7 +355,7 @@ DESKTOP BREAKPOINT
 		margin-bottom:1em;
 		position: fixed;
 		right:0;
-		width:35%;
+		width:40%;
 		min-width:350px;
 		margin-right: 3em;
 	}  /*brings in the desktop version*/
@@ -364,6 +385,7 @@ DESKTOP BREAKPOINT
 		color:white;
 	}
 
+
 	#search_box{
 		display: none;
 	}
@@ -373,13 +395,14 @@ DESKTOP BREAKPOINT
 		width:80%;
 		margin:auto;
 	}
-	#search_box_desktop input {
-		width:100%;
-	}
+
+
 
 	/*=============
 	INDIVIDUAL SPEAKER PAGE
 	======================*/
+
+
 	#singlespeaker{
 		background-color: #FFF;
 		padding-bottom:3em;
@@ -392,4 +415,18 @@ DESKTOP BREAKPOINT
 	.contact_details ul{
 		margin-right: .5em;
 	}
+
+	/*================
+	IFRAME VIDEO PLAYER
+	==================*/
+
+	iframe{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+
+	}
+
+
+
 }

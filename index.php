@@ -117,7 +117,6 @@
 				<!-- search box -->
 				<form id = 'search_box_desktop'>
 					<input type="text" value = 'Search...'>
-
 				</form>
 			</header>
 
