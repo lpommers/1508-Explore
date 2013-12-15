@@ -17,6 +17,7 @@ body{
 	header
 =================*/
 
+
 #logo{
 	width: 100%;
 
@@ -70,6 +71,9 @@ a:visited{
 	color: #FF3600;
 }
 
+#search_box_desktop{
+	display: none;
+}
 /*================
 Bottom navigation
 =================*/
@@ -273,6 +277,10 @@ DESKTOP BREAKPOINT
 		background-color: #FFF;
 	}
 
+	.header_about_links div {
+		width: 49%;
+		float: left;
+	}
 
 	/*=========================
 	all the CONTENT & NAVIGATION - off to the left
@@ -308,17 +316,40 @@ DESKTOP BREAKPOINT
 
 	.filter_wrapper_desktop ul li{
 		display: inline-block;
-		font-size: 1.2em;
+		font-size: 1.4em;
 		text-align: center;
 	}
 
 	.filter_wrapper_desktop ul li a {
 		color:#FFF;
-		margin-right: .5em;
-		margin-left: .5em;
+		margin-right: .2em;
+		margin-left: .2em;
 	}
 
 	#search_box{
+		display: none;
+	}
+
+	#search_box_desktop{
 		display: inline-block;
+	}
+
+
+
+
+
+	/*=============
+	INDIVIDUAL SPEAKER PAGE
+	======================*/
+	#singlespeaker{
+		background-color: #FFF;
+	}
+
+	.contact_details p{
+		margin-left: .5em;
+	}
+
+	.contact_details ul{
+		margin-right: .5em;
 	}
 }
