@@ -72,19 +72,17 @@ a:visited{
 }
 
 .filter_wrapper {
-	border:1px solid blue;
-	width: 100%;
 	position: fixed;
 	bottom: 0;
 	z-index: 10;
+	max-width: 400px;
+	width: 100%;
 }
 
 /*main navigation*/
 
 .filter_nav {
-	width:100%;
 	font-size: 2em;
-	/*get rid of this mac width later - i don't think it should be here*/
 	margin: auto;
 	background-color: #FF3600;
 	list-style-type: none;
@@ -112,7 +110,7 @@ a:visited{
 	margin:auto;
 }
 
-.individual_post{	
+.individual_post{
 	border-top:1px solid #80868e;
 	padding:0.4em 1em;
 }
@@ -134,7 +132,7 @@ a:visited{
 
 	color:white;
 	width:100%;
-	
+
 }
 
 
