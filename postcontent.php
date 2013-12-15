@@ -138,18 +138,18 @@ function single_speaker($specific){
 	$linkedin = $data['linkedin'];
 
 	$out.="<img src='http://luke0086.keaweb.dk/1508/img/people/$image' alt='$image'>
+			<div class='speaker_wrapper'>
 			<h1><a class='person_name' href=href='http://luke0086.keaweb.dk/1508?category=people&id=$id'>$name</a></h1>
 			<h2 class='person_position'>$position</h2>
 			<h3>$blurb_text</h3>
 			<p>$text</p>
 			<div class='contact_details'>
-			<div><p>Kontakt</p></div>
-			<div><ul>
+			<p>Kontakt</p>
+			<ul>
 			<li>$mobile</li>
 			<li><a href='mailto:$email'>$email</a></li>
 			<li><a href='http://www.linkedin.com/profile/$linkedin'>Linkedin</a></li>
 			</ul>
-			</div>
 			</div>";
 	}
 
