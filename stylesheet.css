@@ -275,6 +275,7 @@ DESKTOP BREAKPOINT
 		width: 25%;
 		position: fixed;
 		background-color: #FFF;
+		min-width: 280px;
 	}
 
 	.header_about_links div {
