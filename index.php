@@ -13,10 +13,12 @@
 
 				case 'knowledge':
 					$out.= grab_post("WHERE CATEGORY = 'knowledge'");
+					$script.= script("knowledge");
 					break;
 
 				case 'people':
 					$out.= all_people("");
+					$script.= script("people");
 					break;
 		}
 	}
@@ -30,10 +32,18 @@
 
 				case 'people':
 					$out.= single_speaker("WHERE id = $post_id");
+					$script.= script("people");
 					break;
 
 				default:
 					$out.= single_post("WHERE ID = $post_id");
+					if ($post_category=='knowledge'){
+						$script.=script("knowledge");
+					}
+
+					else{
+						$script.=script("events");
+						}
 		}
 
 	}
@@ -42,6 +52,7 @@
 	else {
 
 		$out.= grab_post("");
+		$script.= script("home");
 	}
 
 ?>
@@ -126,7 +137,7 @@
 					<a href="http://luke0086.keaweb.dk/1508?page=events"><img class='events' src="img/nav-icons/cal.png" alt="cal"></a>
 				</li>
 				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=knowledge"><img class='events' src="img/nav-icons/light.png" alt="knowledge"></a>
+					<a href="http://luke0086.keaweb.dk/1508?page=knowledge"><img class='knowledge' src="img/nav-icons/light.png" alt="knowledge"></a>
 				</li>
 				<li>
 					<a href="http://luke0086.keaweb.dk/1508?page=people"><img class='people' src="img/nav-icons/people.png" alt="speakers"></a>

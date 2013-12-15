@@ -2,6 +2,7 @@
 
 include("dbconnect.php");
 $out="";
+$script="";
 
 //for grabbing post title
 
