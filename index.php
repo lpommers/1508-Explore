@@ -27,13 +27,12 @@
 
 			switch($post_category){
 
-				case 'events':
-					$out.= single_post("WHERE ID = $post_id");
-					break;
-
 				case 'people':
 					$out.= single_speaker("WHERE id = $post_id");
 					break;
+
+				default:
+					$out.= single_post("WHERE ID = $post_id");
 		}
 
 	}
