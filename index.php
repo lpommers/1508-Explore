@@ -101,6 +101,12 @@
 						<a href="http://vimeo.com/design1508/videos" target='_blank'><img src="img/social/1508vim.png" alt="vimeo"></a>
 					</li>
 				</ul>
+
+				<!-- search box -->
+				<form id = 'search_box_desktop'>
+					<input type="text" value = 'Search...'>
+
+				</form>
 			</header>
 
 		<!-- wrapper for main navigation -->
@@ -135,11 +141,7 @@
 
 			<!-- wrapper for desktop navigation -->
 			<div class="filter_wrapper_desktop">
-				<!-- search box -->
-				<form id = 'search_box'>
-					<input type="text" value = 'Search...'>
 
-				</form>
 
 				<!-- main navigation -->
 				<ul class="filter_nav_desktop">
