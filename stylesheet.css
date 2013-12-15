@@ -74,6 +74,10 @@ a:visited{
 Bottom navigation
 =================*/
 
+.filter_wrapper_dekstop{
+	display: none;
+}
+
 .filter_wrapper {
 	position: fixed;
 	bottom: 0;
