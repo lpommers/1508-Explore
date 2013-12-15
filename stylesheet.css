@@ -227,6 +227,7 @@ p.header {
 .contact_details {
 	border-top:1px solid #80868e;
 	border-bottom:1px solid #80868e;
+	overflow:hidden;
 
 	}
 
