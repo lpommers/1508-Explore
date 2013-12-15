@@ -103,7 +103,7 @@
 		<div class="filter_wrapper">
 			<!-- search box -->
 			<form id = 'search_box'>
-				<input type="text" value = 'Search'>
+				<input type="text" value = 'Search...'>
 
 			</form>
 
