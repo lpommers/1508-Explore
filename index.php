@@ -57,6 +57,16 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script>
+		$(function(){
+			$('#search').click(function(){
+				event.preventDefault();
+				$('#search_box').slideToggle();
+			});
+		});
+
+	</script>
 </head>
 <body>
 		<header>
@@ -88,7 +98,7 @@
 		<div class="filter_wrapper">
 			<form id = 'search_box'>
 				<input type="text" value = 'Search'>
-				<button><img src="img/nav-icons/next.png" alt="submit search"></button>
+				<!-- <button><img src="img/nav-icons/next.png" alt="submit search"></button> -->
 			</form>
 			<ul class="filter_nav">
 				<li>
@@ -104,7 +114,7 @@
 					<a href="http://luke0086.keaweb.dk/1508?page=people"><img src="img/nav-icons/people.png" alt="speakers"></a>
 				</li>
 				<li>
-					<a href="#"><img src="img/nav-icons/search.png" alt="search"></a>
+					<a id='search' href="#"><img src="img/nav-icons/search.png" alt="search"></a>
 				</li>
 			</ul>
 		</div>
