@@ -2,7 +2,6 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
 	color: #80868e;
-	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -79,7 +78,6 @@ Bottom navigation
 	position: fixed;
 	bottom: 0;
 	z-index: 10;
-	max-width: 400px;
 	width: 100%;
 }
 
@@ -243,3 +241,10 @@ p.header {
 	left:50%;
 }
 
+/*================
+DESKTOP BREAKPOINT
+================*/
+
+@media only screen and (min-width: 700px) {
+
+}
