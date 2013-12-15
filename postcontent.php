@@ -75,11 +75,11 @@ function single_post($specific){
 			$out.= "
 					<div>
 						<form id='sign_up_form'>
-							<input type='text' required value='navn...' />
+							<input type='text' required = 'required' value='navn...' />
 							<input type='text' value='stilling...'/>
 							<input type='text' value='firma...'/>
-							<input type='text' required value='e-mail...' />
-							<input type='text' required value='telefon...' />
+							<input type='text' required = 'required' value='e-mail...' />
+							<input type='text' required = 'required' value='telefon...' />
 							<a href='#'>sign up</a>
 						</form>
 						</div>";

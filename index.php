@@ -70,7 +70,7 @@
 <body>
 		<header>
 			<!-- logo -->
-			<a href="#"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
+			<a href="index.php"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
 
 				<!-- about us and 1508 page lings -->
 				<div class='header_about_links'>
