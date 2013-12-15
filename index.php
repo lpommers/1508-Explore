@@ -64,7 +64,7 @@
 				event.preventDefault();
 				$('#search_box').slideToggle();
 			});
-		
+
 		<?php echo $script ?>
 
 		});
@@ -130,33 +130,35 @@
 			</ul>
 		</div>
 
-		<!-- wrapper for desktop navigation -->
-		<div class="filter_wrapper_desktop">
-			<!-- search box -->
-			<form id = 'search_box'>
-				<input type="text" value = 'Search...'>
-
-			</form>
-
-			<!-- main navigation -->
-			<ul class="filter_nav_desktop">
-				<li>
-					<a href="http://luke0086.keaweb.dk/1508">Home</a>
-				</li>
-				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=events">Events</a>
-				</li>
-				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=knowledge">Knowledge</a>
-				</li>
-				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=people">People</a>
-				</li>
-
-			</ul>
-		</div>
-
 		<div class='content'>
+
+			<!-- wrapper for desktop navigation -->
+			<div class="filter_wrapper_desktop">
+				<!-- search box -->
+				<form id = 'search_box'>
+					<input type="text" value = 'Search...'>
+
+				</form>
+
+				<!-- main navigation -->
+				<ul class="filter_nav_desktop">
+					<li>
+						<a href="http://luke0086.keaweb.dk/1508">Home</a>
+					</li>
+					<li>
+						<a href="http://luke0086.keaweb.dk/1508?page=events">Events</a>
+					</li>
+					<li>
+						<a href="http://luke0086.keaweb.dk/1508?page=knowledge">Knowledge</a>
+					</li>
+					<li>
+						<a href="http://luke0086.keaweb.dk/1508?page=people">People</a>
+					</li>
+
+				</ul>
+			</div>
+
+
 			<?php echo $out; ?>
 		</div>
 	</body>

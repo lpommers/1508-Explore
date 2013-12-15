@@ -74,7 +74,7 @@ a:visited{
 Bottom navigation
 =================*/
 
-.filter_wrapper_dekstop{
+.filter_wrapper_desktop{
 	display: none;
 }
 
@@ -265,18 +265,37 @@ DESKTOP BREAKPOINT
 	header{
 		float: left;
 		height: 100%;
-		width: 35%;
+		width: 20%;
 		position: fixed;
 		background-color: #FFF;
 	}
 
 	.content{
 		float: right;
-		width: 50%;
+		width: 35%;
 	}
 
 	.individual_post{
 		background-color: #FFF;
 		margin-bottom:  1em;
+	}
+
+	.filter_wrapper{
+		display: none;
+	}
+
+	.filter_wrapper_desktop{
+		display: inline-block;
+
+	}
+
+	.filter_wrapper_desktop ul{
+		list-style-type: none;
+		background-color: #FFF;
+
+	}
+
+	.filter_wrapper_desktop ul li{
+		display: inline-block;
 	}
 }
