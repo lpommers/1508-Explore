@@ -108,7 +108,7 @@
 					</li>
 				</ul>
 				</div>
-				
+
 				<!-- about us and 1508 page lings -->
 				<div class='header_about_links'>
 					<h3><a href="#">about </a> &nbsp;/&nbsp; <a href="http://1508.dk"> 1508.dk</a></h3>
@@ -164,7 +164,7 @@
 						<a href="http://luke0086.keaweb.dk/1508">home</a>
 					</li>
 					<li>
-						<a href="http://luke0086.keaweb.dk/1508?page=events">events</a>
+						<a href="http://luke0086.keaweb.dk/1508?page=events"> booster</a>
 					</li>
 					<li>
 						<a href="http://luke0086.keaweb.dk/1508?page=knowledge">knowledge</a>

@@ -266,10 +266,14 @@ DESKTOP BREAKPOINT
 
 	body{
 		margin-top: 0;
+
+  		background: url("img/background/background_1.jpg") no-repeat center center fixed;
   		-webkit-background-size: cover;
   		-moz-background-size: cover;
-  		-o-background-size: cover;
+ 		 -o-background-size: cover;
   		background-size: cover;
+
+
 
 	}
 
@@ -298,18 +302,20 @@ DESKTOP BREAKPOINT
 	/*=========================
 	all the CONTENT & NAVIGATION - off to the left
 	===========================*/
-	.content{
-		background: url("img/background/background_1.jpg") fixed;
-		background-size: 100% auto;
-		width: 74%;
+	.content {
+		width: 35%;
 		float:right;
+		margin-bottom: 0;
+		margin-right: 1em;
+	}
+
+	#all_posts{
+		margin-top: 3em;
 	}
 
 	#all_posts, #singlespeaker, .filter_wrapper_desktop {
-		width:50%;
-		min-width:300px;
+		min-width:350px;
 		margin-right: 5em;
-		float:right;
 	}
 
 	.individual_post{
@@ -330,12 +336,17 @@ DESKTOP BREAKPOINT
 		display: block;
 		background-color: #FF3600;
 		margin-bottom:1em;
+		position: fixed;
+		width: 35%;
 	}  /*brings in the desktop version*/
 
 	.filter_wrapper_desktop ul{
 		list-style-type: none;
 		padding:0.4em 0;
 		font-weight:200;
+		margin: 0;
+		width: 100%;
+
 	}
 
 	.filter_wrapper_desktop ul li{
