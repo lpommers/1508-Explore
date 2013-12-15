@@ -82,7 +82,7 @@ function single_post($specific){
 							<input type='text' value='firma...'/>
 							<input type='text' required = 'required' value='e-mail...' />
 							<input type='text' required = 'required' value='telefon...' />
-							<a href='#'>sign up</a>
+							<div class='sign_up'><a href='#'>Sign Up</a></div>
 						</form>
 						</div>";
 		}
