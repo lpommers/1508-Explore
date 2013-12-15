@@ -24,7 +24,7 @@ function grab_post($specific){
 	$postvideo = $data['videolink'];
 	$out.= "<div class='individual_post'>";
 	$out.= "<h3>$postcategory:</h3>";
-	$out.= "<h1><a href='post.php?id=$id'>$posttitle</a></h1>";
+	$out.= "<h1><a href='http://luke0086.keaweb.dk/1508?category=$postcategory&id=$id'>$posttitle</a></h1>";
 	$out.="<h2>$postdate $posttime</h2>";
 		if (!empty($postvideo)){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
