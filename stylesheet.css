@@ -248,4 +248,31 @@ DESKTOP BREAKPOINT
 
 @media only screen and (min-width: 700px) {
 
+	body{
+		margin-top: 0;
+		background: url("img/background/background_1.jpg") no-repeat center center fixed;
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+
+	}
+
+	header{
+		float: left;
+		height: 100%;
+		width: 35%;
+		position: fixed;
+		background-color: #FFF;
+	}
+
+	.content{
+		float: right;
+		width: 50%;
+	}
+
+	.individual_post{
+		background-color: #FFF;
+		margin-bottom:  1em;
+	}
 }
