@@ -91,6 +91,7 @@ function all_people($specific){
 	$out.=" <div id='allposts'>";
 
 	while($data=mysql_fetch_assoc($result)){
+	$id = $data['id'];
 	$name = $data['name'];
 	$position = $data['position'];
 	$blurb_text = $data['first text'];
@@ -98,14 +99,44 @@ function all_people($specific){
 
 	$out.="<div class='person_wrapper'>
 			<div class='person_text'>
-				<h1 class='person_name'>$name</h1>
+				<h1><a class='person_name' href='speaker.php?id=$id'>$name</a></h1>
 				<h2 class='person_position'>$position</h2>
 			</div>
 			<img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'>
 	</div>";
 	}
-	
+
 	return $out;
 }
 
+function single_speaker($specific){
+	$postinfo = "SELECT * FROM people $specific";
+	$result = mysql_query($postinfo);
+
+	$out = " ";
+	$out.=" <div id='allposts'>";
+
+	while($data=mysql_fetch_assoc($result)){
+	$id = $data['id'];
+	$image = $data['image'];
+	$name = $data['name'];
+	$position = $data['position'];
+	$blurb_text = $data['first text'];
+	$text = $data['text'];
+	$mobile = $data['mobil'];
+	$email = $data['email'];
+	$linkedin = $data['linkedin'];
+	$firstimage = $data['first image'];
+
+	$out.="<div class='person_wrapper'>
+			<div class='person_text'>
+				<h1><a class='person_name' href='speaker.php?id=$id'>$name</a></h1>
+				<h2 class='person_position'>$position</h2>
+			</div>
+			<img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'>
+	</div>";
+	}
+
+	return $out;
+}
 ?>
