@@ -88,6 +88,7 @@
 		<div class="filter_wrapper">
 			<form id = 'search_box'>
 				<input type="text" value = 'Search'>
+				<button><img src="img/nav-icons/next.png" alt="submit search"></button>
 			</form>
 			<ul class="filter_nav">
 				<li>

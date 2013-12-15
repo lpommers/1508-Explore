@@ -86,14 +86,21 @@ Bottom navigation and search
 /*main navigation*/
 
 #search_box input{
-	width: 100%;
+	width: 79%;
 	height: 3em;
 	margin-bottom: 1em;
 	color: #ff3600;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
+	font-size: .8em;
 
 }
+
+#search_box button {
+	background-color: #FF3600;
+}
+
+
 
 .filter_nav {
 	font-size: 2em;
