@@ -58,6 +58,7 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
+	<!-- search box toggle on click -->
 	<script>
 		$(function(){
 			$('#search').click(function(){
@@ -65,17 +66,20 @@
 				$('#search_box').slideToggle();
 			});
 		});
-
 	</script>
 </head>
 <body>
 		<header>
+			<!-- logo -->
 			<a href="#"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
+
+				<!-- about us and 1508 page lings -->
 				<div class='header_about_links'>
 					<div><a href="#">about</a></div>
 					<div><a href="http://1508.dk">1508.dk</a></div>
 				</div>
 
+				<!-- social icons navigation -->
 				<ul class='social_icons'>
 					<li>
 						<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1" target='_blank'><img src="img/social/1508linked.png" alt="linkedin"></a>
@@ -95,11 +99,15 @@
 				</ul>
 			</header>
 
+		<!-- wrapper for main navigation -->
 		<div class="filter_wrapper">
+			<!-- search box -->
 			<form id = 'search_box'>
 				<input type="text" value = 'Search'>
-				<!-- <button><img src="img/nav-icons/next.png" alt="submit search"></button> -->
+
 			</form>
+
+			<!-- main navigation -->
 			<ul class="filter_nav">
 				<li>
 					<a href="http://luke0086.keaweb.dk/1508"><img src="img/nav-icons/house.png" alt="home"></a>
