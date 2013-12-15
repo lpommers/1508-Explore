@@ -146,7 +146,7 @@ function single_speaker($specific){
 			<div><p>Kontakt</p></div>
 			<div><ul>
 			<li>$mobile</li>
-			<li>$email</li>
+			<li><a href='mailto:$email'>$email</a></li>
 			<li><a href='http://www.linkedin.com/profile/$linkedin'>Linkedin</a></li>
 			</ul>
 			</div>
