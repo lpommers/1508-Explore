@@ -71,6 +71,10 @@ a:visited{
 	color: #FF3600;
 }
 
+/*==========================
+Bottom navigation and search
+==========================*/
+
 .filter_wrapper {
 	position: fixed;
 	bottom: 0;
@@ -80,6 +84,16 @@ a:visited{
 }
 
 /*main navigation*/
+
+#search_box input{
+	width: 100%;
+	height: 3em;
+	margin-bottom: 1em;
+	color: #ff3600;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+
+}
 
 .filter_nav {
 	font-size: 2em;
