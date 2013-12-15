@@ -143,6 +143,7 @@ function single_speaker($specific){
 			<h2 class='person_position'>$position</h2>
 			<h3>$blurb_text</h3>
 			<p>$text</p>
+			</div>
 			<div class='contact_details'>
 			<p>Kontakt</p>
 			<ul>
