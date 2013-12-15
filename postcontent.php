@@ -159,7 +159,7 @@ function single_speaker($specific){
 
 function script($page){
 
-	$script= "$('img.$page').attr('src').replace('img/nav-icons/o$page.png')";
+	$script= "$('img.$page').attr('src','img/nav-icons/o$page.png');";
 
 	return $script;
 
