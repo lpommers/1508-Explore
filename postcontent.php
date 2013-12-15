@@ -72,7 +72,17 @@ function single_post($specific){
 	$out.="<p class='header'>$postheader</p>";
 
 		if (($postcategory!='knowledge') && (empty($postvideo))) {
-			$out.= "<div><a>Sign Up</a></div>";
+			$out.= "
+					<div>
+						<form id='sign_up_form'>
+							<input type='text' value='navn...' required/>
+							<input type='text' value='stilling...'/>
+							<input type='text' value='firma...'/>
+							<input type='text' value='e-mail...' required/>
+							<input type='text' value='telefon...' required/>
+							<a href='#'>sign up</a>
+						</form>
+						</div>";
 		}
 
 	$out.= "</div>";
