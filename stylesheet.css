@@ -170,19 +170,17 @@ h1, h2, h3 {
 	margin: 0.3em 0;
 }
 
+h1 {
+	color:#ff3600;
+}
 h3{
-	color:#80868e;
 	font-size:1.2em;
 }
 
 h2{
-	color:#80868e;
 	font-weight: 400;
 }
 
-p.header {
-	color:#80868e;
-}
 
 /*===============
 	people page
@@ -229,17 +227,17 @@ p.header {
 .contact_details {
 	border-top:1px solid #80868e;
 	border-bottom:1px solid #80868e;
+	overflow:hidden;
 
 	}
 
 .contact_details ul {
 	list-style-type: none;
-	position:relative;
-
+	float:right;
 }
 
-.contact_details div:nth-child(2) {
-	position:absolute;
-	left:50%;
+.contact_details p {
+	float:left;
 }
+
 
