@@ -32,7 +32,7 @@
 					break;
 
 				case 'people':
-					$out.= single_people("WHERE category='what?!?!'");
+					$out.= single_speaker("WHERE id = $post_id");
 					break;
 		}
 
@@ -91,7 +91,7 @@
 			</form>
 			<ul class="filter_nav">
 				<li>
-					<a href="#"><img src="img/nav-icons/house.png" alt="home"></a>
+					<a href="http://luke0086.keaweb.dk/1508"><img src="img/nav-icons/house.png" alt="home"></a>
 				</li>
 				<li>
 					<a href="http://luke0086.keaweb.dk/1508?page=events"><img src="img/nav-icons/cal.png" alt="cal"></a>
