@@ -1,5 +1,49 @@
 <?php
+	
 	include("postcontent.php");
+
+	if (isset($_GET['page'])){
+
+		switch($_GET['page']){
+				
+				case 'events':
+					$out.= grab_post("WHERE CATEGORY != 'knowledge'");
+					break;
+
+				case 'knowledge':
+					$out.= grab_post("WHERE CATEGORY = 'knowledge'");
+					break;
+
+				case 'people':
+					$out.= all_people("");
+					break;
+		}
+	}
+
+	elseif (isset($_GET['id'])) {
+
+			$post_category=$_GET['category'];
+			$post_id=$_GET['id'];
+
+			switch($post_category){
+				
+				case 'events':
+					$out.= single_post("WHERE ID = $post_id");
+					break;
+
+				case 'people':
+					$out.= single_people("WHERE category='what?!?!'");
+					break;
+		}
+
+	}
+
+
+	else {
+
+		$out.= grab_post("");
+	}
+
 ?>
 
 <!doctype html>
@@ -47,13 +91,13 @@
 			<a href="#"><img src="img/nav-icons/house.png" alt="home"></a>
 		</li>
 		<li>
-			<a href="upcoming.php"><img src="img/nav-icons/cal.png" alt="cal"></a>
+			<a href="http://luke0086.keaweb.dk/1508?page=events"><img src="img/nav-icons/cal.png" alt="cal"></a>
 		</li>
 		<li>
-			<a href="knowledge.php"><img src="img/nav-icons/light.png" alt="knowledge"></a>
+			<a href="http://luke0086.keaweb.dk/1508?page=knowledge"><img src="img/nav-icons/light.png" alt="knowledge"></a>
 		</li>
 		<li>
-			<a href="people.php"><img src="img/nav-icons/people.png" alt="speakers"></a>
+			<a href="http://luke0086.keaweb.dk/1508?page=people"><img src="img/nav-icons/people.png" alt="speakers"></a>
 		</li>
 		<li>
 			<a href="#"><img src="img/nav-icons/search.png" alt="search"></a>
@@ -61,7 +105,7 @@
 	</ul>
 	</div>
 	<div class='content'>
-		<?php echo grab_post(""); ?>
+		<?php echo $out; ?>
 	</div>
 </body>
 </html>
