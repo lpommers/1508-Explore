@@ -71,6 +71,7 @@ function single_post($specific){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
 	$out.="<p class='header'>$postheader</p>";
+	$out.="<p>$posttext</p>";
 
 		if (($postcategory!='knowledge') && (empty($postvideo))) {
 			$out.= "

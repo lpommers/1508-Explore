@@ -95,7 +95,8 @@
 				</div>
 
 				<!-- social icons navigation -->
-				<ul class='social_icons'>
+				<div class='social_icons'>
+				<ul>
 					<li>
 						<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1" target='_blank'><img src="img/social/1508linked.png" alt="linkedin"></a>
 					</li>
@@ -112,6 +113,7 @@
 						<a href="http://vimeo.com/design1508/videos" target='_blank'><img src="img/social/1508vim.png" alt="vimeo"></a>
 					</li>
 				</ul>
+				</div>
 
 				<!-- search box -->
 				<form id = 'search_box_desktop'>
@@ -157,16 +159,16 @@
 				<!-- main navigation -->
 				<ul class="filter_nav_desktop">
 					<li>
-						<a href="http://luke0086.keaweb.dk/1508">Home</a>
+						<a href="http://luke0086.keaweb.dk/1508">home</a>
 					</li>
 					<li>
-						<a href="http://luke0086.keaweb.dk/1508?page=events">Events</a>
+						<a href="http://luke0086.keaweb.dk/1508?page=events">events</a>
 					</li>
 					<li>
-						<a href="http://luke0086.keaweb.dk/1508?page=knowledge">Knowledge</a>
+						<a href="http://luke0086.keaweb.dk/1508?page=knowledge">knowledge</a>
 					</li>
 					<li>
-						<a href="http://luke0086.keaweb.dk/1508?page=people">People</a>
+						<a href="http://luke0086.keaweb.dk/1508?page=people">people</a>
 					</li>
 
 				</ul>
