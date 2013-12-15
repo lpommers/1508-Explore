@@ -30,7 +30,7 @@ function grab_post($specific){
 			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 			}
 	$out.="<p class='header'>$postheader</p>";
-		if (empty($postvideo)) {
+		if (($postcategory!='knowledge') && (empty($postvideo))) {
 			$out.= "<div class='sign_up'><a href='#'>Sign Up</a></div>";
 		}
 
@@ -71,7 +71,7 @@ function single_post($specific){
 			}
 	$out.="<p class='header'>$postheader</p>";
 
-		if (empty($postvideo)) {
+		if (($postcategory!='knowledge') && (empty($postvideo))) {
 			$out.= "<div><a>Sign Up</a></div>";
 		}
 
@@ -99,7 +99,7 @@ function all_people($specific){
 
 	$out.="<div class='person_wrapper'>
 			<div class='person_text'>
-				<h1><a class='person_name' href='speaker.php?id=$id'>$name</a></h1>
+				<h1><a class='person_name' href='http://luke0086.keaweb.dk/1508?category=people&id=$id'>$name</a></h1>
 				<h2 class='person_position'>$position</h2>
 			</div>
 			<img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'>
@@ -114,7 +114,7 @@ function single_speaker($specific){
 	$result = mysql_query($postinfo);
 
 	$out = " ";
-	$out.=" <div id='allposts'>";
+	$out.="<div id='singlespeaker'>";
 
 	while($data=mysql_fetch_assoc($result)){
 	$id = $data['id'];
@@ -126,17 +126,24 @@ function single_speaker($specific){
 	$mobile = $data['mobil'];
 	$email = $data['email'];
 	$linkedin = $data['linkedin'];
-	$firstimage = $data['first image'];
 
-	$out.="<div class='person_wrapper'>
-			<div class='person_text'>
-				<h1><a class='person_name' href='speaker.php?id=$id'>$name</a></h1>
-				<h2 class='person_position'>$position</h2>
+	$out.="<img src='http://luke0086.keaweb.dk/1508/img/people/$image' alt='$image'>
+			<h1><a class='person_name' href=href='http://luke0086.keaweb.dk/1508?category=people&id=$id'>$name</a></h1>
+			<h2 class='person_position'>$position</h2>
+			<h3>$blurb_text</h3>
+			<p>$text</p>
+			<div class='contact_details'>
+			<div><p>Kontakt</p></div>
+			<div><ul>
+			<li>$mobile<li>
+			<li>$email<li>
+			<li><a href='http://www.linkedin.com/profile/$linkedin'>Linkedin</a><li>
+			</ul>
 			</div>
-			<img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'>
-	</div>";
+			</div>";
 	}
 
 	return $out;
 }
+
 ?>
