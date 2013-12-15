@@ -51,7 +51,7 @@ function single_post($specific){
 	$result = mysql_query($postinfo);
 
 	$out=" ";
-	$out.="<div id='allposts'>";
+	$out.="<div id='all_posts'>";
 
 
 	$data=mysql_fetch_assoc($result);
@@ -100,7 +100,7 @@ function all_people($specific){
 	$result = mysql_query($postinfo);
 
 	$out = " ";
-	$out.=" <div id='allposts'>";
+	$out.="<div id='all_posts'>";
 
 	while($data=mysql_fetch_assoc($result)){
 	$id = $data['id'];
@@ -114,7 +114,7 @@ function all_people($specific){
 				<h1><a class='person_name' href='http://luke0086.keaweb.dk/1508?category=people&id=$id'>$name</a></h1>
 				<h2 class='person_position'>$position</h2>
 			</div>
-			<img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'>
+			<a href='http://luke0086.keaweb.dk/1508?category=people&id=$id'><img src='http://luke0086.keaweb.dk/1508/img/people/$firstimage' alt='$firstimage'></a>
 	</div>";
 	}
 
@@ -141,7 +141,7 @@ function single_speaker($specific){
 
 	$out.="<img src='http://luke0086.keaweb.dk/1508/img/people/$image' alt='$image'>
 			<div class='speaker_wrapper'>
-			<h1><a class='person_name' href=href='http://luke0086.keaweb.dk/1508?category=people&id=$id'>$name</a></h1>
+			<h1><a class='person_name' href='http://luke0086.keaweb.dk/1508?category=people&id=$id'>$name</a></h1>
 			<h2 class='person_position'>$position</h2>
 			<h3>$blurb_text</h3>
 			<p>$text</p>

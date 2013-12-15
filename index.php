@@ -88,12 +88,6 @@
 			<!-- logo -->
 			<a href="index.php"><img id='logo'src="img/logo.png" alt="1508 logo"></a>
 
-				<!-- about us and 1508 page lings -->
-				<div class='header_about_links'>
-					<div><a href="#">about</a></div>
-					<div><a href="http://1508.dk">1508.dk</a></div>
-				</div>
-
 				<!-- social icons navigation -->
 				<div class='social_icons'>
 				<ul>
@@ -114,6 +108,11 @@
 					</li>
 				</ul>
 				</div>
+				
+				<!-- about us and 1508 page lings -->
+				<div class='header_about_links'>
+					<h3><a href="#">about </a> &nbsp;/&nbsp; <a href="http://1508.dk"> 1508.dk</a></h3>
+				</div>
 
 				<!-- search box -->
 				<form id = 'search_box_desktop'>
@@ -125,13 +124,15 @@
 		<!-- wrapper for main navigation -->
 		<div class="filter_wrapper">
 			<!-- search box -->
-			<form id = 'search_box'>
-				<input type="text" value = 'Search...'>
-
-			</form>
+			<div id = 'search_box'>
+				<form>
+					<input type="text" value = 'Search...'>
+				</form>
+			</div>
 
 			<!-- main navigation -->
-			<ul class="filter_nav">
+			<div class='filter_nav'>
+			<ul>
 				<li>
 					<a href="http://luke0086.keaweb.dk/1508"><img class='home' src="img/nav-icons/house.png" alt="home"></a>
 				</li>
@@ -148,6 +149,7 @@
 					<a id='search' href="#"><img src="img/nav-icons/search.png" alt="search"></a>
 				</li>
 			</ul>
+			</div>
 		</div>
 
 		<div class='content'>
