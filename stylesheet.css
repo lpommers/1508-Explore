@@ -1,7 +1,7 @@
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
-	color: #FF3600;
+	color: #80868e;
 	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
@@ -216,5 +216,30 @@ p.header {
 
 .person_wrapper h3 {
 	font-size: 0.9em;
+}
+
+/*===============
+	people page
+=================*/
+
+#singlespeaker img {
+	width:100%;
+}
+
+.contact_details {
+	border-top:1px solid #80868e;
+	border-bottom:1px solid #80868e;
+
+	}
+
+.contact_details ul {
+	list-style-type: none;
+	position:relative;
+
+}
+
+.contact_details div:nth-child(2) {
+	position:absolute;
+	left:50%;
 }
 
