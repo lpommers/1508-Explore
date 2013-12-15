@@ -8,6 +8,7 @@
 
 				case 'events':
 					$out.= grab_post("WHERE CATEGORY != 'knowledge'");
+					$script.= script("events");
 					break;
 
 				case 'knowledge':
@@ -113,16 +114,16 @@
 			<!-- main navigation -->
 			<ul class="filter_nav">
 				<li>
-					<a href="http://luke0086.keaweb.dk/1508"><img src="img/nav-icons/house.png" alt="home"></a>
+					<a href="http://luke0086.keaweb.dk/1508"><img class='home' src="img/nav-icons/house.png" alt="home"></a>
 				</li>
 				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=events"><img src="img/nav-icons/cal.png" alt="cal"></a>
+					<a href="http://luke0086.keaweb.dk/1508?page=events"><img class='events' src="img/nav-icons/cal.png" alt="cal"></a>
 				</li>
 				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=knowledge"><img src="img/nav-icons/light.png" alt="knowledge"></a>
+					<a href="http://luke0086.keaweb.dk/1508?page=knowledge"><img class='events' src="img/nav-icons/light.png" alt="knowledge"></a>
 				</li>
 				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=people"><img src="img/nav-icons/people.png" alt="speakers"></a>
+					<a href="http://luke0086.keaweb.dk/1508?page=people"><img class='people' src="img/nav-icons/people.png" alt="speakers"></a>
 				</li>
 				<li>
 					<a id='search' href="#"><img src="img/nav-icons/search.png" alt="search"></a>

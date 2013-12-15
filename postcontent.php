@@ -157,4 +157,12 @@ function single_speaker($specific){
 	return $out;
 }
 
+function script($page){
+
+	$script= "$('img.$page').attr('src').replace('img/nav-icons/o$page.png')";
+
+	return $script;
+
+}
+
 ?>
