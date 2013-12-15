@@ -163,7 +163,7 @@
 						<a href="http://luke0086.keaweb.dk/1508">home</a>
 					</li>
 					<li>
-						<a href="http://luke0086.keaweb.dk/1508?page=events"> booster</a>
+						<a href="http://luke0086.keaweb.dk/1508?page=events"> boosters </a>
 					</li>
 					<li>
 						<a href="http://luke0086.keaweb.dk/1508?page=knowledge">knowledge</a>
