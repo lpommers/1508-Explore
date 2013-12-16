@@ -335,7 +335,7 @@ DESKTOP BREAKPOINT
 		min-width:350px;
 		float:right;
 		margin-bottom: 0;
-		margin-right: 3em;
+		margin-right: 5em;
 	}
 
 	#all_posts,  #singlespeaker{
@@ -365,7 +365,7 @@ DESKTOP BREAKPOINT
 		right:0;
 		width:40%;
 		min-width:350px;
-		margin-right: 3em;
+		margin-right: 5em;
 		margin-top: .6em;
 	}  /*brings in the desktop version*/
 
