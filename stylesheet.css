@@ -399,7 +399,7 @@ DESKTOP BREAKPOINT
 
 	.filter_wrapper_desktop ul{
 		list-style-type: none;
-		padding:0.4em 0;
+		padding:0.3em;
 		font-weight:200;
 		margin: 0;
 		width:100%;
@@ -411,6 +411,14 @@ DESKTOP BREAKPOINT
 		width:24%;
 		font-size: 1.2em;
 		text-align: center;
+		border-right: 2px solid #FFFFFF;
+
+
+	}
+
+	.filter_wrapper_desktop ul li:nth-child(4){
+
+		border-right: none;
 	}
 
 	.filter_nav_desktop {
