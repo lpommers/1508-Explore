@@ -116,11 +116,11 @@
 
 				<!-- search box -->
 				<form id = 'search_box_desktop'>
-					<input type="text" value = 'Search...'>
+					<input type="text" value = 'search...' onfocus="this.value = this.value=='search...'?'':this.value;" onblur="this.value = this.value==''?'search...':this.value;">
 				</form>
 
 				<form id='newsletter_desktop'>
-				<input type="text" value='sign up for our newsletter...'>
+				<input type="text" value='sign up for our newsletter...' onfocus="this.value = this.value=='sign up for our newsletter...'?'':this.value;" onblur="this.value = this.value==''?'sign up for our newsletter...':this.value;">
 			</form>
 			</header>
 
@@ -129,7 +129,7 @@
 			<!-- search box -->
 			<div id = 'search_box'>
 				<form>
-					<input type="text" value = 'search...'>
+					<input type="text" value = 'search...' onfocus="this.value = this.value=='search...'?'':this.value;" onblur="this.value = this.value==''?'search...':this.value;">
 				</form>
 			</div>
 
@@ -183,7 +183,7 @@
 			<?php echo $out; ?>
 
 			<form id='newsletter_mobile'>
-				<input type="text" value='sign up for our newsletter...'>
+				<input type="text" value='sign up for our newsletter...' onfocus="this.value = this.value=='sign up for our newsletter...'?'':this.value;" onblur="this.value = this.value==''?'sign up for our newsletter...':this.value;">
 			</form>
 		</div>
 	</body>

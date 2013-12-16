@@ -77,11 +77,11 @@ function single_post($specific){
 			$out.= "
 					<div>
 						<form id='sign_up_form'>
-							<input type='text' required value='navn...*' />
-							<input type='text' value='stilling...'/>
-							<input type='text' value='firma...'/>
-							<input type='text' required value='e-mail...*' />
-							<input type='text' required value='telefon...*' />
+							<input type='text' required value='navn...*' onfocus=\"this.value = this.value=='navn...*'?'':this.value;\" onblur=\"this.value = this.value==''?'navn...*':this.value;\"/>
+							<input type='text' value='stilling...' onfocus=\"this.value = this.value=='stilling...'?'':this.value;\" onblur=\"this.value = this.value==''?'stilling...':this.value;\"/>
+							<input type='text' value='firma...' onfocus=\"this.value = this.value=='firma...'?'':this.value;\" onblur=\"this.value = this.value==''?'firma...':this.value;\"/>
+							<input type='text' required value='e-mail...*' onfocus=\"this.value = this.value=='e-mail...*'?'':this.value;\" onblur=\"this.value = this.value==''?'e-mail...*':this.value;\"/>
+							<input type='text' required value='telefon...*' onfocus=\"this.value = this.value=='telefon...*'?'':this.value;\" onblur=\"this.value = this.value==''?'telefon...*':this.value;\"/>
 							<div class='sign_up'><a href='#'>Sign Up</a></div>
 						</form>
 						</div>";
