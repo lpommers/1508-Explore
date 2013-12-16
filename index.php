@@ -9,9 +9,7 @@
 				case 'events':
 					$out.= grab_post("WHERE CATEGORY != 'knowledge'");
 					$script.= script("events");
-					$script.= "function(){
-								$('#month_bar_wrapper').animate({top':'4em','right':'1em'})
-							};";
+					$script.= "$('#month_bar_wrapper').animate({'right':'1em'},1000);";
 					$eventbar.= event_bar();
 					break;
 
