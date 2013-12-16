@@ -186,5 +186,19 @@
 				<input type="text" value='sign up for our newsletter...' onfocus="this.value = this.value=='sign up for our newsletter...'?'':this.value;" onblur="this.value = this.value==''?'sign up for our newsletter...':this.value;">
 			</form>
 		</div>
+		<div id='month_bar_wrapper'>
+				<table id='month_bar'>
+					<tr class='year'><td><p>ALL</p></td></tr>
+					<tr class='year'><td><p> /&nbsp;2007</p></td></tr>
+					<tr class='year'><td><p> /&nbsp;2008</p></td></tr>
+					<tr class='year'><td><p> /&nbsp;2009</p></td></tr>
+					<tr class='year'><td><p> /&nbsp;2010</p></td></tr>
+					<tr class='year'><td><p> /&nbsp;2011</p></td></tr>
+					<tr class='year'><td><p> /&nbsp;2012</p></td></tr>
+					<tr class='year'><td><p> /&nbsp;2013</p></td></tr>
+					<tr class='year'><td><p> /&nbsp;2014</p></td></tr>
+				</tr>
+				</table>
+		</div>
 	</body>
 	</html>

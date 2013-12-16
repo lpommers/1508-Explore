@@ -71,6 +71,11 @@ a, h1{
 	color: #FF3600;
 	text-decoration: none;
 }
+
+a:hover {
+	text-decoration: underline;
+}
+
 a:visited{
 	color: #FF3600;
 }
@@ -291,6 +296,13 @@ iframe{
 		color: #ff3600;
 		font-size: 1.3em;
 	}
+/*=========
+	sign up & search general styles
+	===========*/
+
+	#month_bar_wrapper {
+		display:none;
+	}
 
 /*================
 DESKTOP BREAKPOINT
@@ -473,6 +485,32 @@ DESKTOP BREAKPOINT
 
 	}
 
+/*========
+month boxes
+==========*/
 
+	#month_bar_wrapper {
+		display:block;
+		position:fixed;
+		color:red;
+		top:4em;
+		right:1em;
+		background-color: white;
+		width:3em;
+		height:100%;
+	}
+	#month_bar {
+		margin-top:2em;
+		text-align:center;
+	}
+	#month_bar_wrapper p {
+		-webkit-transform: rotate(90deg);
+	    -moz-transform: rotate(90deg);
+	}
+
+	#month_bar_wrapper p:hover {
+		-webkit-transform: rotate(0deg);
+	    -moz-transform: rotate(0deg);
+	}
 
 }
