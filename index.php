@@ -118,6 +118,10 @@
 				<form id = 'search_box_desktop'>
 					<input type="text" value = 'Search...'>
 				</form>
+
+				<form id='newsletter_desktop'>
+				<input type="text" value='sign up for our newsletter...'>
+			</form>
 			</header>
 
 		<!-- wrapper for main navigation -->
@@ -125,29 +129,29 @@
 			<!-- search box -->
 			<div id = 'search_box'>
 				<form>
-					<input type="text" value = 'Search...'>
+					<input type="text" value = 'search...'>
 				</form>
 			</div>
 
 			<!-- main navigation -->
 			<div class='filter_nav'>
-			<ul>
-				<li>
-					<a href="http://luke0086.keaweb.dk/1508"><img class='home' src="img/nav-icons/house.png" alt="home"></a>
-				</li>
-				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=events"><img class='events' src="img/nav-icons/cal.png" alt="cal"></a>
-				</li>
-				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=knowledge"><img class='knowledge' src="img/nav-icons/light.png" alt="knowledge"></a>
-				</li>
-				<li>
-					<a href="http://luke0086.keaweb.dk/1508?page=people"><img class='people' src="img/nav-icons/people.png" alt="speakers"></a>
-				</li>
-				<li>
-					<a id='search' href="#"><img src="img/nav-icons/search.png" alt="search"></a>
-				</li>
-			</ul>
+				<ul>
+					<li>
+						<a href="http://luke0086.keaweb.dk/1508"><img class='home' src="img/nav-icons/house.png" alt="home"></a>
+					</li>
+					<li>
+						<a href="http://luke0086.keaweb.dk/1508?page=events"><img class='events' src="img/nav-icons/cal.png" alt="cal"></a>
+					</li>
+					<li>
+						<a href="http://luke0086.keaweb.dk/1508?page=knowledge"><img class='knowledge' src="img/nav-icons/light.png" alt="knowledge"></a>
+					</li>
+					<li>
+						<a href="http://luke0086.keaweb.dk/1508?page=people"><img class='people' src="img/nav-icons/people.png" alt="speakers"></a>
+					</li>
+					<li>
+						<a id='search' href="#"><img src="img/nav-icons/search.png" alt="search"></a>
+					</li>
+				</ul>
 			</div>
 		</div>
 
@@ -177,6 +181,10 @@
 
 
 			<?php echo $out; ?>
+
+			<form id='newsletter_mobile'>
+				<input type="text" value='sign up for our newsletter...'>
+			</form>
 		</div>
 	</body>
 	</html>

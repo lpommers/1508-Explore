@@ -16,6 +16,10 @@
 	margin-bottom:30%;
 }
 
+#newsletter_desktop{
+	display: none;
+}
+
 /*===============
 	header
 =================*/
@@ -25,11 +29,16 @@
 	width: 100%;
 
 }
+.social_icons{
+	margin: auto;
+	width: 100%;
+}
 
 .social_icons ul {
 	padding:0;
 	width:75%;
-	margin:0.5em auto;
+	margin:auto;
+	overflow: hidden;
 }
 .social_icons li {
 	list-style-type: none;
@@ -132,6 +141,10 @@ Search Box
 	background-color: #FF3600;
 }
 
+#newsletter_mobile{
+	padding: .4em 1em;
+}
+
 /*===============
 	posts
 =================*/
@@ -153,7 +166,6 @@ Search Box
 
 .sign_up {
 	width:100%;
-	background-color:#7ed3f7;
 	margin:auto;
 	margin-bottom:1em;
 	padding:0.3em;
@@ -164,6 +176,8 @@ Search Box
 
 	color:white;
 	width:100%;
+	background-color: #7ed3f7;
+	padding: .4em;
 
 }
 
@@ -307,6 +321,7 @@ DESKTOP BREAKPOINT
 		position: fixed;
 		background-color: #FFF;
 		min-width: 280px;
+		max-width: 280px;
 	}
 
 	.header_about_links div {
@@ -353,9 +368,22 @@ DESKTOP BREAKPOINT
 	/*==================
 	NAVIGATION - specifics
 	====================*/
+	#newsletter_desktop{
+		display: block;
+		width: 80%;
+		margin: auto;
+		font-size: .8em;
+		margin-top: .5em;
+
+	}
+
 	.filter_wrapper{
 		display: none;
 	}  /*hides the mobile nav*/
+
+	#newsletter_mobile{
+		display: none;
+	}
 
 	div.filter_wrapper_desktop{
 		display: block;
@@ -403,6 +431,7 @@ DESKTOP BREAKPOINT
 		display: block;
 		width:80%;
 		margin:auto;
+		font-size: .8em;
 	}
 
 
