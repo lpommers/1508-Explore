@@ -29,7 +29,7 @@ function grab_post($specific){
 	$out.= "<h1><a href='http://luke0086.keaweb.dk/1508?category=$postcategory&id=$id'>$posttitle</a></h1>";
 	$out.="<h2>$postdate $posttime</h2>";
 		if (!empty($postvideo)){
-			$out.="<iframe src='$postvideo' width='100%' height='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
+			$out.="<div class='video_container'><iframe src='$postvideo' width='100%' height='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>";
 			}
 	$out.="<p class='header'>$postheader</p>";
 		if (($postcategory!='knowledge') && (empty($postvideo))) {
@@ -184,5 +184,17 @@ function event_bar(){
 				</div>";
 	return $eventbar;
 }
+
+function about_us(){
+	$out="";
+	$out.="<div id='all_posts'>
+			<h1>DESIGN IN LOVE WITH TECHNOLOGY</h1>
+			<p>1508 er et digitalt designbureau. Vi skaber integrerede visuelle identiteter og digitale løsninger på tværs af platforme. Vi er over 40 faglige ildsjæle, som bor på christianshavn.
+			</p>
+			</div>";
+
+	return $out;
+
+	}	
 
 ?>
