@@ -64,6 +64,7 @@ function single_post($specific){
 	$postheader = $data['headertext'];
 	$posttext = $data['text'];
 	$postvideo = $data['videolink'];
+	$postslide = $data['slideshowlink'];
 	$out.= "<div class='individual_post'>";
 	$out.= "<h3>$postcategory:</h3>";
 	$out.= "<h1>$posttitle</h1>";
@@ -73,6 +74,10 @@ function single_post($specific){
 			}
 	$out.="<p class='header'>$postheader</p>";
 	$out.="<p>$posttext</p>";
+	if (!empty($postslide)){
+			$out.="<p>Slideshow:</p>
+			<div class='video_container'><iframe src='$postslide' width='100%' height='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>";
+			}
 
 		if (($postcategory!='knowledge') && (empty($postvideo))) {
 			$out.= "
