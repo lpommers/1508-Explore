@@ -9,7 +9,7 @@
 				case 'events':
 					$out.= grab_post("WHERE CATEGORY != 'knowledge'");
 					$script.= script("events");
-					$script.= "function(){ 
+					$script.= "function(){
 								$('#month_bar_wrapper').animate({top':'4em','right':'1em'})
 							};";
 					$eventbar.= event_bar();
@@ -97,19 +97,19 @@
 				<div class='social_icons'>
 				<ul>
 					<li>
-						<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1" target='_blank'><img src="img/social/1508linked.png" alt="linkedin"></a>
+						<a href="http://www.linkedin.com/company/22451?trk=tyah&trkInfo=tas%3A1508%2Cidx%3A1-1-1" target='_blank'><img src="img/social/linkedin.png" alt="linkedin"></a>
 					</li>
 					<li>
-						<a href="https://www.facebook.com/1508dk" target='_blank'><img src="img/social/1508fb.png" alt="facebook"></a>
+						<a href="https://www.facebook.com/1508dk" target='_blank'><img src="img/social/facebook.png" alt="facebook"></a>
 					</li>
 					<li>
-						<a href="http://www.slideshare.net/1508as" target='_blank'><img src="img/social/1508slide.png" alt="twitter"></a>
+						<a href="http://www.slideshare.net/1508as" target='_blank'><img src="img/social/slideshare.png" alt="twitter"></a>
 					</li>
 					<li>
-						<a href="https://twitter.com/1508AS" target='_blank'><img src="img/social/1508tw.png" alt="vimeo"></a>
+						<a href="https://twitter.com/1508AS" target='_blank'><img src="img/social/twitter.png" alt="vimeo"></a>
 					</li>
 					<li>
-						<a href="http://vimeo.com/design1508/videos" target='_blank'><img src="img/social/1508vim.png" alt="vimeo"></a>
+						<a href="http://vimeo.com/design1508/videos" target='_blank'><img src="img/social/vimeo.png" alt="vimeo"></a>
 					</li>
 				</ul>
 				</div>
@@ -183,7 +183,7 @@
 
 				</ul>
 			</div>
-			
+
 			<?php echo $out; ?>
 
 			<form id='newsletter_mobile'>
