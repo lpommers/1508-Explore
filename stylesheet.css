@@ -70,10 +70,20 @@
 a, h1{
 	color: #FF3600;
 	text-decoration: none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
 }
 
 a:hover {
 	text-decoration: underline;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
 }
 
 a:visited{
@@ -283,6 +293,8 @@ iframe{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	width: 100%;
+	height: auto;
 
 }
 
@@ -423,9 +435,6 @@ DESKTOP BREAKPOINT
 		width:24%;
 		font-size: 1.2em;
 		text-align: center;
-		border-right: 2px solid #FFFFFF;
-
-
 	}
 
 	.filter_wrapper_desktop ul li:nth-child(4){
@@ -490,7 +499,9 @@ month boxes
 ==========*/
 
 	#month_bar_wrapper {
-		display:block;
+		display: block;
+		top: 4em;
+		right: -5em;
 		position:fixed;
 		color:red;
 		background-color: white;
