@@ -147,7 +147,7 @@
 						<a href="http://luke0086.keaweb.dk/1508"><img class='home' src="img/nav-icons/home.png" alt="home"></a>
 					</li>
 					<li>
-						<a href="http://luke0086.keaweb.dk/1508?page=events"><img class='events' src="img/nav-icons/calender.png" alt="cal"></a>
+						<a href="http://luke0086.keaweb.dk/1508?page=events"><img class='events' src="img/nav-icons/events.png" alt="cal"></a>
 					</li>
 					<li>
 						<a href="http://luke0086.keaweb.dk/1508?page=knowledge"><img class='knowledge' src="img/nav-icons/knowledge.png" alt="knowledge"></a>
