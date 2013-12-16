@@ -112,21 +112,25 @@ Bottom navigation
 
 .filter_nav {
 	background-color: #FF3600;
+	max-height: 50px;
 }
 
 .filter_nav ul {
-	width:265px;
 	margin:auto;
 	padding:0;
-
+	width: 100%;
+	display:inline-block;
 }
 
 .filter_nav li {
 	list-style-type: none;
 	display:inline-block;
-	width:50px;
+	width:19%;
 }
 
+.filter_nav li a img{
+	max-height: 50px;
+}
 
 /*========
 Search Box
