@@ -493,22 +493,24 @@ month boxes
 		display:block;
 		position:fixed;
 		color:red;
-		top:4em;
-		right:1em;
 		background-color: white;
 		width:3em;
 		height:100%;
 	}
+
 	#month_bar {
-		margin-top:2em;
 		text-align:center;
 	}
+
 	#month_bar_wrapper p {
 		-webkit-transform: rotate(90deg);
 	    -moz-transform: rotate(90deg);
 	}
 
 	#month_bar_wrapper p:hover {
+		transition: 0.5s;
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
 		-webkit-transform: rotate(0deg);
 	    -moz-transform: rotate(0deg);
 	}

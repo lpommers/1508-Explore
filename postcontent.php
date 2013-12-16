@@ -3,6 +3,7 @@
 include("dbconnect.php");
 $out="";
 $script="";
+$eventbar="";
 
 //for grabbing post title
 
@@ -165,6 +166,23 @@ function script($page){
 
 	return $script;
 
+}
+
+function event_bar(){
+	$eventbar="";
+	$eventbar.= "<div id='month_bar_wrapper'>
+					<table id='month_bar'>
+						<tr class='year'><td><p><a href='#'> &nbsp;2007</a></p></td></tr>
+						<tr class='year'><td><p><a href='#'> /&nbsp;2008</a></p></td></tr>
+						<tr class='year'><td><p><a href='#'> /&nbsp;2009</a></p></td></tr>
+						<tr class='year'><td><p><a href='#'> /&nbsp;2010</a></p></td></tr>
+						<tr class='year'><td><p><a href='#'> /&nbsp;2011</a></p></td></tr>
+						<tr class='year'><td><p><a href='#'> /&nbsp;2012</a></p></td></tr>
+						<tr class='year'><td><p><a href='#'> /&nbsp;2013</a></p></td></tr>
+						<tr class='year'><td><p><a href='#'> /&nbsp;2014</a></p></td></tr>
+					</table>
+				</div>";
+	return $eventbar;
 }
 
 ?>
