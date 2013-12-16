@@ -315,8 +315,16 @@ DESKTOP BREAKPOINT
 	}
 
 	.social_icons ul {
-		width: 90%;
 		margin:auto;
+		width: 74%;
+	}
+
+	.social_icons li {
+		width: 2.4em;
+	}
+
+	.social_icons li a{
+		width: 2.4em;
 	}
 
 	/*=========================
