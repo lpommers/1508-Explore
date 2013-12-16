@@ -378,10 +378,10 @@ DESKTOP BREAKPOINT
 	===========================*/
 	.content {
 		width: 40%;
-		min-width:350px;
+		min-width:320px;
 		float:right;
 		margin-bottom: 0;
-		margin-right: 5em;
+		margin-right: 11%;
 	}
 
 	#all_posts,  #singlespeaker{
@@ -420,12 +420,13 @@ DESKTOP BREAKPOINT
 		display: block;
 		background-color: #FF3600;
 		margin-bottom:1em;
+		margin-right:11%;
+		margin-top:.6em;
 		position: fixed;
 		right:0;
 		width:40%;
-		min-width:350px;
-		margin-right: 5em;
-		margin-top: .6em;
+		min-width:320px;
+		
 	}  /*brings in the desktop version*/
 
 	.filter_wrapper_desktop ul{
