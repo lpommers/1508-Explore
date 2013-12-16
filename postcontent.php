@@ -69,7 +69,7 @@ function single_post($specific){
 	$out.= "<h1>$posttitle</h1>";
 	$out.="<h2>$postdate $posttime</h2>";
 		if (!empty($postvideo)){
-			$out.="<iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
+			$out.="<div class='video_container'><iframe src='$postvideo' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>";
 			}
 	$out.="<p class='header'>$postheader</p>";
 	$out.="<p>$posttext</p>";
