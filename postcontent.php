@@ -32,7 +32,7 @@ function grab_post($specific){
 			}
 	$out.="<p class='header'>$postheader</p>";
 		if (($postcategory!='knowledge') && (empty($postvideo))) {
-			$out.= "<div class='sign_up'><a href='#'>Sign Up</a></div>";
+			$out.= "<div class='sign_up'><a href='http://luke0086.keaweb.dk/1508?category=$postcategory&id=$id'>Sign Up</a></div>";
 		}
 
 	$out.= "</div>";
